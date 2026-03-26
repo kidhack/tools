@@ -7,18 +7,18 @@ const { totalTools } = Astro.props as Props;
 ---
 
 <div class="search-shell">
-  <label class="search-label" for="search-input">Search the directory</label>
+  <label class="sr-only" for="search-input">Search</label>
   <input
     id="search-input"
     class="search-input"
     type="search"
     name="search"
-    placeholder="Search by tool, category, tag, or note..."
+    placeholder="Search"
     autocomplete="off"
     spellcheck="false"
   />
-  <p class="search-meta">
+  <p class="search-meta" aria-live="polite">
     <span id="search-count">{totalTools}</span>
-    tools indexed
+    results
   </p>
 </div>

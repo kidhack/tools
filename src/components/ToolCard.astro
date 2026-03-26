@@ -3,41 +3,29 @@ import type { Tool } from '../data/tools';
 
 interface Props {
   tool: Tool;
-  categoryLabel: string;
 }
 
-const { tool, categoryLabel } = Astro.props as Props;
+const { tool } = Astro.props as Props;
+const displayUrl = tool.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/+$/, '');
 ---
 
 <article
   class="tool-card"
   data-name={tool.name}
   data-description={tool.description}
-  data-category={categoryLabel}
   data-tags={tool.tags?.join(',') ?? ''}
-  data-note={tool.personalNote ?? ''}
 >
-  <div class="tool-card-top">
-    <p class="tool-kicker">{categoryLabel}</p>
-    <div class="tool-heading">
-      <h3>
-        <a href={tool.url} target="_blank" rel="noopener noreferrer">
-          {tool.name}
-        </a>
-      </h3>
-      {tool.badge && <span class={`badge badge-${tool.badge}`}>{tool.badge}</span>}
-    </div>
+  <div class="tool-heading">
+    <h3>
+      <a href={tool.url} target="_blank" rel="noopener noreferrer">
+        {tool.name}
+      </a>
+    </h3>
   </div>
 
+  <p class="tool-url">
+    <a href={tool.url} target="_blank" rel="noopener noreferrer">{displayUrl}</a>
+  </p>
+
   <p class="tool-description">{tool.description}</p>
-
-  {tool.personalNote && <blockquote class="tool-note">"{tool.personalNote}"</blockquote>}
-
-  {tool.tags && tool.tags.length > 0 && (
-    <ul class="tag-list" aria-label={`${tool.name} tags`}>
-      {tool.tags.map((tag) => (
-        <li>{tag}</li>
-      ))}
-    </ul>
-  )}
 </article>

@@ -19,7 +19,7 @@ export interface Category {
 export const categories: Category[] = [
   {
     id: 'assistants',
-    label: 'Assistants',
+    label: 'LLMs',
     description: 'General-purpose AI assistants for writing, reasoning, and research.',
     tools: [
       {
@@ -301,12 +301,6 @@ export const categories: Category[] = [
         url: 'https://storybook.js.org',
         badge: 'recommended',
         tags: ['components', 'documentation', 'react', 'handoff'],
-      },
-      {
-        name: 'Zeplin',
-        description: 'Design-to-development handoff with specs, assets, and style guides.',
-        url: 'https://zeplin.io',
-        tags: ['handoff', 'specs', 'figma', 'sketch'],
       },
       {
         name: 'Supernova',
@@ -599,7 +593,12 @@ export const categories: Category[] = [
       },
     ],
   },
-];
+]
+  .map((category) => ({
+    ...category,
+    tools: [...category.tools].sort((a, b) => a.name.localeCompare(b.name)),
+  }))
+  .sort((a, b) => a.label.localeCompare(b.label));
 
 export const totalTools = categories.reduce((count, category) => count + category.tools.length, 0);
 

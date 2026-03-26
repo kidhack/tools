@@ -5,9 +5,9 @@ import CategorySection from '../components/CategorySection.astro';
 import { allTools, categories, totalTools } from '../data/tools';
 import '../styles/global.css';
 
-const title = 'Designer Tools';
+const title = 'Cool Tools';
 const description =
-  'A personal, opinionated directory of design and AI tools curated for designers.';
+  'A small collection of useful design tools.';
 ---
 
 <!doctype html>
@@ -26,22 +26,10 @@ const description =
 
       <main class="content">
         <header class="hero">
-          <p class="eyebrow">Designer directory</p>
           <h1>{title}</h1>
           <p class="hero-copy">{description}</p>
-          <div class="hero-stats" aria-label="Directory statistics">
-            <p><strong>{totalTools}</strong> tools</p>
-            <p><strong>{categories.length}</strong> categories</p>
-          </div>
           <SearchBar totalTools={totalTools} />
         </header>
-
-        <section class="intro-card">
-          <p>
-            This site is built from one typed data file so the list stays easy to curate over time.
-            Add or edit entries in <code>src/data/tools.ts</code> and rebuild.
-          </p>
-        </section>
 
         <div id="empty-state" class="empty-state" hidden>
           <p>No tools matched that search. Try a broader keyword or tag.</p>
@@ -65,6 +53,7 @@ const description =
       const emptyState = document.querySelector('#empty-state');
       const cards = Array.from(document.querySelectorAll('[data-name]'));
       const sections = Array.from(document.querySelectorAll('[data-category-section]'));
+      const tocLinks = Array.from(document.querySelectorAll('[data-toc-link]'));
       const toolData = JSON.parse(document.querySelector('#tool-data')?.textContent ?? '[]');
 
       const fuse = new Fuse(toolData, {
@@ -102,18 +91,68 @@ const description =
         emptyState.hidden = visibleCount !== 0;
       };
 
+      const setActiveToc = (sectionId) => {
+        tocLinks.forEach((link) => {
+          const isActive = link.getAttribute('data-toc-link') === sectionId;
+          link.classList.toggle('is-active', isActive);
+          if (isActive) {
+            link.setAttribute('aria-current', 'true');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      };
+
+      const updateActiveSection = () => {
+        const visibleSections = sections.filter((section) => !section.hidden);
+        if (visibleSections.length === 0) {
+          return;
+        }
+
+        const isAtBottom =
+          window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+        if (isAtBottom) {
+          setActiveToc(visibleSections[visibleSections.length - 1].id);
+          return;
+        }
+
+        const activationOffset = 240;
+        const reachedSections = visibleSections.filter(
+          (section) => section.getBoundingClientRect().top <= activationOffset,
+        );
+        const currentSection =
+          reachedSections[reachedSections.length - 1] ?? visibleSections[0];
+
+        setActiveToc(currentSection.id);
+      };
+
+      const sectionObserver = new IntersectionObserver(
+        () => {
+          updateActiveSection();
+        },
+        {
+          rootMargin: '-20% 0px -60% 0px',
+          threshold: [0, 0.25, 0.5, 1],
+        },
+      );
+
+      sections.forEach((section) => sectionObserver.observe(section));
+
       applyVisibility(null);
+      updateActiveSection();
 
       input?.addEventListener('input', (event) => {
         const query = event.currentTarget instanceof HTMLInputElement ? event.currentTarget.value.trim() : '';
 
         if (!query) {
           applyVisibility(null);
+          updateActiveSection();
           return;
         }
 
         const visibleNames = new Set(fuse.search(query).map((result) => result.item.name));
         applyVisibility(visibleNames);
+        updateActiveSection();
       });
     </script>
   </body>
