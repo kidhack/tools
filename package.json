@@ -1,0 +1,24 @@
+{
+  "name": "tools",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [
+    "astro",
+    "design-tools",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "A curated directory of design and AI tools for designers.",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.1.1",
+    "fuse.js": "^7.1.0"
+  }
+}

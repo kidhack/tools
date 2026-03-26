@@ -1,0 +1,23 @@
+---
+import type { Category } from '../data/tools';
+
+interface Props {
+  categories: Category[];
+}
+
+const { categories } = Astro.props as Props;
+---
+
+<nav class="toc" aria-label="Tool categories">
+  <p class="eyebrow">Browse by category</p>
+  <ul class="toc-list">
+    {categories.map((category) => (
+      <li>
+        <a href={`#${category.id}`}>
+          <span>{category.label}</span>
+          <span class="toc-count">{category.tools.length}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

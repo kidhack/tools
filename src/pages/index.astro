@@ -1,0 +1,120 @@
+---
+import SearchBar from '../components/SearchBar.astro';
+import TOC from '../components/TOC.astro';
+import CategorySection from '../components/CategorySection.astro';
+import { allTools, categories, totalTools } from '../data/tools';
+import '../styles/global.css';
+
+const title = 'Designer Tools';
+const description =
+  'A personal, opinionated directory of design and AI tools curated for designers.';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="sidebar">
+        <TOC categories={categories} />
+      </aside>
+
+      <main class="content">
+        <header class="hero">
+          <p class="eyebrow">Designer directory</p>
+          <h1>{title}</h1>
+          <p class="hero-copy">{description}</p>
+          <div class="hero-stats" aria-label="Directory statistics">
+            <p><strong>{totalTools}</strong> tools</p>
+            <p><strong>{categories.length}</strong> categories</p>
+          </div>
+          <SearchBar totalTools={totalTools} />
+        </header>
+
+        <section class="intro-card">
+          <p>
+            This site is built from one typed data file so the list stays easy to curate over time.
+            Add or edit entries in <code>src/data/tools.ts</code> and rebuild.
+          </p>
+        </section>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <p>No tools matched that search. Try a broader keyword or tag.</p>
+        </div>
+
+        <div id="tool-results">
+          {categories.map((category) => (
+            <CategorySection category={category} />
+          ))}
+        </div>
+      </main>
+    </div>
+
+    <script id="tool-data" type="application/json" set:html={JSON.stringify(allTools)} />
+
+    <script>
+      import Fuse from 'fuse.js';
+
+      const input = document.querySelector('#search-input');
+      const count = document.querySelector('#search-count');
+      const emptyState = document.querySelector('#empty-state');
+      const cards = Array.from(document.querySelectorAll('[data-name]'));
+      const sections = Array.from(document.querySelectorAll('[data-category-section]'));
+      const toolData = JSON.parse(document.querySelector('#tool-data')?.textContent ?? '[]');
+
+      const fuse = new Fuse(toolData, {
+        includeScore: true,
+        threshold: 0.34,
+        ignoreLocation: true,
+        keys: [
+          { name: 'name', weight: 0.45 },
+          { name: 'description', weight: 0.25 },
+          { name: 'categoryLabel', weight: 0.15 },
+          { name: 'tags', weight: 0.1 },
+          { name: 'personalNote', weight: 0.05 },
+        ],
+      });
+
+      const applyVisibility = (visibleNames) => {
+        let visibleCount = 0;
+
+        cards.forEach((card) => {
+          const matches = visibleNames === null || visibleNames.has(card.dataset.name ?? '');
+          card.hidden = !matches;
+          if (matches) {
+            visibleCount += 1;
+          }
+        });
+
+        sections.forEach((section) => {
+          const hasVisibleCards = Array.from(section.querySelectorAll('[data-name]')).some(
+            (card) => !card.hidden,
+          );
+          section.hidden = !hasVisibleCards;
+        });
+
+        count.textContent = String(visibleCount);
+        emptyState.hidden = visibleCount !== 0;
+      };
+
+      applyVisibility(null);
+
+      input?.addEventListener('input', (event) => {
+        const query = event.currentTarget instanceof HTMLInputElement ? event.currentTarget.value.trim() : '';
+
+        if (!query) {
+          applyVisibility(null);
+          return;
+        }
+
+        const visibleNames = new Set(fuse.search(query).map((result) => result.item.name));
+        applyVisibility(visibleNames);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+---
+import type { Category } from '../data/tools';
+import ToolCard from './ToolCard.astro';
+
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props as Props;
+---
+
+<section class="category-section" id={category.id} data-category-section>
+  <div class="category-header">
+    <div>
+      <p class="eyebrow">Category</p>
+      <h2>{category.label}</h2>
+    </div>
+    <p class="category-count">{category.tools.length} tools</p>
+  </div>
+
+  <p class="category-description">{category.description}</p>
+
+  <div class="tool-grid">
+    {category.tools.map((tool) => (
+      <ToolCard tool={tool} categoryLabel={category.label} />
+    ))}
+  </div>
+</section>
