@@ -23,23 +23,23 @@ A small collection of useful design tools.
 
 Palette generators, shade tools, and accessibility checkers.
 
-[InclusiveColors](https://www.inclusivecolors.com/)  
+InclusiveColors  
 [inclusivecolors.com](https://www.inclusivecolors.com/)  
 Accessible palette creator that builds WCAG-compliant color systems.
 
-[Tailcolor](https://tailcolor.com/)  
+Tailcolor  
 [tailcolor.com](https://tailcolor.com/)  
 Tailwind color tool for customizing and previewing palettes.
 
-[Tailwind Shades](https://www.tailwindshades.com/)  
+Tailwind Shades  
 [tailwindshades.com](https://www.tailwindshades.com/)  
 Tailwind CSS shade generator for color scales.
 
-[Tints.dev](https://www.tints.dev)  
+Tints.dev  
 [tints.dev](https://www.tints.dev)  
 Generates tint and shade scales from a base color.
 
-[UI Colors](https://uicolors.app/create)  
+UI Colors  
 [uicolors.app/create](https://uicolors.app/create)  
 Tailwind-compatible color palette generator.
 
@@ -47,63 +47,63 @@ Tailwind-compatible color palette generator.
 
 AI tools for generating UI designs, prototypes, and code from prompts or Figma.
 
-[Bolt](https://bolt.new)  
+Bolt  
 [bolt.new](https://bolt.new)  
 Turns a prompt or Figma import into a full app in the browser.
 
-[Builder.io](https://www.builder.io)  
+Builder.io  
 [builder.io](https://www.builder.io)  
 Visual development platform with prompt, website, and Figma-to-code workflows.
 
-[Cursor](https://www.cursor.com)  
+Cursor  
 [cursor.com](https://www.cursor.com)  
 AI-first code editor for working alongside AI on real codebases.
 
-[Fray](https://fray.design)  
+Fray  
 [fray.design](https://fray.design)  
 Imports Figma frames, creates layout variations, and exports clean frames back.
 
-[Galileo AI](https://www.usegalileo.ai/)  
+Galileo AI  
 [usegalileo.ai](https://www.usegalileo.ai/)  
 Turns text prompts into polished, Figma-ready UI designs.
 
-[Google Stitch](https://stitch.withgoogle.com)  
+Google Stitch  
 [stitch.withgoogle.com](https://stitch.withgoogle.com)  
 Google AI design tool for generating app UI from prompts and exporting to code or Figma.
 
-[Lovable](https://lovable.dev)  
+Lovable  
 [lovable.dev](https://lovable.dev)  
 Builds production-ready apps from prompts with Figma import support.
 
-[Magic Patterns](https://www.magicpatterns.com)  
+Magic Patterns  
 [magicpatterns.com](https://www.magicpatterns.com)  
 Generates code from prompts, images, or Figma and exports to Figma and GitHub.
 
-[Pencil](https://www.pencil.dev)  
+Pencil  
 [pencil.dev](https://www.pencil.dev)  
 Agent-driven MCP canvas for generating and iterating on UI visually.
 
-[Relume](https://www.relume.io)  
+Relume  
 [relume.io](https://www.relume.io)  
 Turns outlines into website wireframes and exports to Figma, Webflow, and React.
 
-[Replit](https://replit.com)  
+Replit  
 [replit.com](https://replit.com)  
 Browser-based IDE with prompt-to-code AI for quick experiments.
 
-[Subframe](https://www.subframe.com)  
+Subframe  
 [subframe.com](https://www.subframe.com)  
 Designs, prototypes, and exports production-ready code with reusable components.
 
-[Uizard](https://uizard.io)  
+Uizard  
 [uizard.io](https://uizard.io)  
 Turns prompts, sketches, or screenshots into designs for rapid ideation.
 
-[UXPilot](https://uxpilot.ai)  
+UXPilot  
 [uxpilot.ai](https://uxpilot.ai)  
 AI UX assistant with versatile review and generation tools.
 
-[v0](https://v0.dev)  
+v0  
 [v0.dev](https://v0.dev)  
 Vercel UI generator that accepts prompts or Figma files and outputs React.
 
@@ -111,27 +111,27 @@ Vercel UI generator that accepts prompts or Figma files and outputs React.
 
 Tools for building, documenting, and scaling design systems.
 
-[Component.gallery](https://component.gallery/design-systems/)  
+Component.gallery  
 [component.gallery/design-systems](https://component.gallery/design-systems/)  
 Curated index of components across major design systems for research.
 
-[Storybook](https://storybook.js.org)  
+Storybook  
 [storybook.js.org](https://storybook.js.org)  
 Component documentation and isolated UI development for design system handoff.
 
-[Supernova](https://www.supernova.io)  
+Supernova  
 [supernova.io](https://www.supernova.io)  
 Design system management, documentation, and code generation platform.
 
-[Tokens Studio](https://tokens.studio)  
+Tokens Studio  
 [tokens.studio](https://tokens.studio)  
 The standard Figma plugin for managing and syncing design tokens.
 
-[UIMate](https://www.uimate.design)  
+UIMate  
 [uimate.design](https://www.uimate.design)  
 Quickly scaffolds a base design system with starter components.
 
-[Zeroheight](https://zeroheight.com)  
+Zeroheight  
 [zeroheight.com](https://zeroheight.com)  
 Living documentation platform for design systems and style guides.
 
@@ -139,31 +139,31 @@ Living documentation platform for design systems and style guides.
 
 Icon libraries and frameworks for UI design and development.
 
-[Font Awesome](https://fontawesome.com)  
+Font Awesome  
 [fontawesome.com](https://fontawesome.com)  
 Established icon library with a huge range of icons and styles.
 
-[Google Icons](https://fonts.google.com/icons)  
+Google Icons  
 [fonts.google.com/icons](https://fonts.google.com/icons)  
 Google Material Symbols icon set with adjustable font-based properties.
 
-[Hero Icons](https://heroicons.com)  
+Hero Icons  
 [heroicons.com](https://heroicons.com)  
 Hand-crafted SVG icons by the Tailwind CSS team.
 
-[Iconify](https://iconify.design)  
+Iconify  
 [iconify.design](https://iconify.design)  
 Universal icon framework with more than 200,000 icons from many sets.
 
-[Lucide](https://lucide.dev)  
+Lucide  
 [lucide.dev](https://lucide.dev)  
 Clean and consistent open-source icon set popular in React ecosystems.
 
-[Pika Icons](https://pikaicons.com)  
+Pika Icons  
 [pikaicons.com](https://pikaicons.com)  
 Premium icon set with a wide range of styles.
 
-[Untitled UI Icons](https://www.untitledui.com/icons)  
+Untitled UI Icons  
 [untitledui.com/icons](https://www.untitledui.com/icons)  
 Clean modern icon library with free and pro tiers.
 
@@ -171,15 +171,15 @@ Clean modern icon library with free and pro tiers.
 
 AI image generators for concept art, mockup visuals, and creative direction.
 
-[Adobe Firefly](https://www.adobe.com/products/firefly.html)  
+Adobe Firefly  
 [adobe.com/products/firefly.html](https://www.adobe.com/products/firefly.html)  
 Adobe image generator trained on licensed content and integrated with Creative Cloud.
 
-[Midjourney](https://www.midjourney.com)  
+Midjourney  
 [midjourney.com](https://www.midjourney.com)  
 High-quality AI image generation known for artistic and photographic output.
 
-[Reve](https://reve.art)  
+Reve  
 [reve.art](https://reve.art)  
 Fast, high-quality AI image generation for visual exploration.
 
@@ -187,27 +187,27 @@ Fast, high-quality AI image generation for visual exploration.
 
 Curated galleries and learning resources for designers.
 
-[Awwwards](https://www.awwwards.com)  
+Awwwards  
 [awwwards.com](https://www.awwwards.com)  
 Award-winning web design showcase and benchmark for digital craft.
 
-[Dark Design](https://www.dark.design)  
+Dark Design  
 [dark.design](https://www.dark.design)  
 Curated gallery of dark mode interface design references.
 
-[Godly](https://godly.website)  
+Godly  
 [godly.website](https://godly.website)  
 Curated showcase of standout website design filtered by style and type.
 
-[Minimal Gallery](https://minimal.gallery)  
+Minimal Gallery  
 [minimal.gallery](https://minimal.gallery)  
 Curated collection of minimal and clean web design references.
 
-[Mobbin](https://mobbin.com)  
+Mobbin  
 [mobbin.com](https://mobbin.com)  
 Massive library of real mobile and web UI screenshots searchable by pattern.
 
-[Shape of AI](https://www.shapeof.ai)  
+Shape of AI  
 [shapeof.ai](https://www.shapeof.ai)  
 Best practices and UI patterns for AI-powered products.
 
@@ -215,19 +215,19 @@ Best practices and UI patterns for AI-powered products.
 
 General-purpose AI assistants for writing, reasoning, and research.
 
-[ChatGPT](https://chatgpt.com)  
+ChatGPT  
 [chatgpt.com](https://chatgpt.com)  
 Full-suite AI assistant by OpenAI for writing, coding, analysis, and more.
 
-[Claude](https://claude.ai)  
+Claude  
 [claude.ai](https://claude.ai)  
 Full-suite AI assistant by Anthropic with strong reasoning and document handling.
 
-[Gemini](https://gemini.google.com)  
+Gemini  
 [gemini.google.com](https://gemini.google.com)  
 Full-suite AI assistant by Google with deep Workspace integration.
 
-[Perplexity](https://www.perplexity.ai)  
+Perplexity  
 [perplexity.ai](https://www.perplexity.ai)  
 AI-powered research and search engine that is great for staying current.
 
@@ -235,19 +235,19 @@ AI-powered research and search engine that is great for staying current.
 
 Text-based and markdown-driven tools for wireframes, diagrams, and lo-fi mockups.
 
-[MarkEdit](https://github.com/MarkEdit-app/MarkEdit)  
+MarkEdit  
 [github.com/MarkEdit-app/MarkEdit](https://github.com/MarkEdit-app/MarkEdit)  
 Free open-source Markdown editor for macOS with a native lightweight feel.
 
-[Mockdown](https://www.mockdown.design)  
+Mockdown  
 [mockdown.design](https://www.mockdown.design)  
 Free browser-based ASCII wireframe editor for lo-fi mockups and quick prototypes.
 
-[Obsidian](https://obsidian.md)  
+Obsidian  
 [obsidian.md](https://obsidian.md)  
 Local-first markdown knowledge base for linked notes and long-term thinking.
 
-[TAAG](https://patorjk.com/software/taag/)  
+TAAG  
 [patorjk.com/software/taag](https://patorjk.com/software/taag/)  
 Classic online text-to-ASCII art generator with dozens of font styles.
 
@@ -255,11 +255,11 @@ Classic online text-to-ASCII art generator with dozens of font styles.
 
 Tools for user research, testing, and product analytics.
 
-[Hey Marvin](https://heymarvin.com)  
+Hey Marvin  
 [heymarvin.com](https://heymarvin.com)  
 AI-powered research repository for interviews, synthesis, and tagging.
 
-[LogRocket](https://logrocket.com)  
+LogRocket  
 [logrocket.com](https://logrocket.com)  
 Session replay and product analytics for understanding user behavior.
 
@@ -267,55 +267,55 @@ Session replay and product analytics for understanding user behavior.
 
 Font libraries, pairing tools, and type references for designers.
 
-[ABC Dinamo](https://abcdinamo.com)  
+ABC Dinamo  
 [abcdinamo.com](https://abcdinamo.com)  
 Berlin-based foundry known for contemporary experimental typefaces.
 
-[Adobe Fonts](https://fonts.adobe.com)  
+Adobe Fonts  
 [fonts.adobe.com](https://fonts.adobe.com)  
 Professional font library included with Creative Cloud.
 
-[Connary Fagen](https://connary.com)  
+Connary Fagen  
 [connary.com](https://connary.com)  
 Independent type foundry with versatile display and text typefaces.
 
-[Fontjoy](https://fontjoy.com)  
+Fontjoy  
 [fontjoy.com](https://fontjoy.com)  
 ML-powered font pairing generator for finding complementary combinations.
 
-[Fonts In Use](https://fontsinuse.com)  
+Fonts In Use  
 [fontsinuse.com](https://fontsinuse.com)  
 Archive of real-world typography across print, digital, and branding.
 
-[Fontshare](https://www.fontshare.com)  
+Fontshare  
 [fontshare.com](https://www.fontshare.com)  
 Free high-quality fonts from Indian Type Foundry.
 
-[Google Fonts](https://fonts.google.com)  
+Google Fonts  
 [fonts.google.com](https://fonts.google.com)  
 Free open-source web font library used across the web.
 
-[Klim Type Foundry](https://klim.co.nz)  
+Klim Type Foundry  
 [klim.co.nz](https://klim.co.nz)  
 Historically informed typefaces widely used in editorial and branding.
 
-[Kometa](https://www.kometa.xyz)  
+Kometa  
 [kometa.xyz](https://www.kometa.xyz)  
 Independent foundry producing contemporary, high-quality typefaces.
 
-[OH no Type Co](https://ohnotype.co)  
+OH no Type Co  
 [ohnotype.co](https://ohnotype.co)  
 Independent foundry known for expressive display and text faces.
 
-[Open Foundry](https://open-foundry.com)  
+Open Foundry  
 [open-foundry.com](https://open-foundry.com)  
 Curated platform for open-source typefaces selected for quality.
 
-[Pangram Pangram](https://pangrampangram.com)  
+Pangram Pangram  
 [pangrampangram.com](https://pangrampangram.com)  
 Type foundry offering free and premium typefaces popular with designers.
 
-[Variable Fonts](https://v-fonts.com)  
+Variable Fonts  
 [v-fonts.com](https://v-fonts.com)  
 Reference and showcase for variable fonts with rich filtering.
 
@@ -323,43 +323,43 @@ Reference and showcase for variable fonts with rich filtering.
 
 Tools for video generation, animation, and motion design.
 
-[Adobe Firefly Video](https://www.adobe.com/products/firefly/features/ai-video-generator.html)  
+Adobe Firefly Video  
 [adobe.com/products/firefly/features/ai-video-generator.html](https://www.adobe.com/products/firefly/features/ai-video-generator.html)  
 Adobe video generator built for commercial-safe workflows and Premiere integration.
 
-[Descript](https://www.descript.com)  
+Descript  
 [descript.com](https://www.descript.com)  
 AI-powered video and podcast editor with transcript-based editing.
 
-[Flit](https://www.flit.design)  
+Flit  
 [flit.design](https://www.flit.design)  
 Lightweight SVG animation tool for quick motion experiments.
 
-[Google Veo](https://deepmind.google/models/veo/)  
+Google Veo  
 [deepmind.google/models/veo](https://deepmind.google/models/veo/)  
 Google video generation model available through Gemini for cinematic clips.
 
-[Jitter](https://jitter.video)  
+Jitter  
 [jitter.video](https://jitter.video)  
 Fast and simple browser-based motion design tool.
 
-[LottieFiles](https://lottiefiles.com)  
+LottieFiles  
 [lottiefiles.com](https://lottiefiles.com)  
 Standard workflow for bringing After Effects animations to web and native apps.
 
-[Luma Dream Machine](https://lumalabs.ai/dream-machine)  
+Luma Dream Machine  
 [lumalabs.ai/dream-machine](https://lumalabs.ai/dream-machine)  
 High-quality AI video generation known for smooth and realistic motion.
 
-[Pika](https://pika.art)  
+Pika  
 [pika.art](https://pika.art)  
 Creates, extends, and edits video clips from prompts or images.
 
-[Rive](https://rive.app)  
+Rive  
 [rive.app](https://rive.app)  
 Interactive runtime animation tool for production interfaces across platforms.
 
-[Runway](https://runwayml.com)  
+Runway  
 [runwayml.com](https://runwayml.com)  
 Industry-leading AI video generation and creative editing platform.
 
@@ -367,6 +367,6 @@ Industry-leading AI video generation and creative editing platform.
 
 Tools for presentations, canvases, and visual communication.
 
-[Gamma](https://gamma.app)  
+Gamma  
 [gamma.app](https://gamma.app)  
 AI-powered tool for presentations, lightweight websites, and social posts.
