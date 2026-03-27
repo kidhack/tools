@@ -140,6 +140,8 @@ const description =
 
       applyVisibility(null);
       updateActiveSection();
+      window.addEventListener('scroll', updateActiveSection, { passive: true });
+      window.addEventListener('resize', updateActiveSection);
 
       input?.addEventListener('input', (event) => {
         const query = event.currentTarget instanceof HTMLInputElement ? event.currentTarget.value.trim() : '';
