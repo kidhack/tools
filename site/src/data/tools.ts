@@ -99,6 +99,12 @@ export const categories: Category[] = [
         tags: ['components', 'figma', 'react', 'code-export'],
       },
       {
+        name: 'Spline',
+        description: 'Web-based collaborative 3D design platform for interactive, production-ready experiences.',
+        url: 'https://spline.design/',
+        tags: ['3d', 'interactive', 'motion', 'web', 'collaboration'],
+      },
+      {
         name: 'v0',
         description: 'Vercel UI generator that accepts prompts or Figma files and outputs React.',
         url: 'https://v0.dev',
@@ -326,6 +332,12 @@ export const categories: Category[] = [
         url: 'https://component.gallery/design-systems/',
         badge: 'free',
         tags: ['reference', 'components', 'research', 'design-system'],
+      },
+      {
+        name: 'Layout',
+        description: 'Connects design systems from Figma or websites to AI coding agents with structured context.',
+        url: 'https://layout.design',
+        tags: ['design-system', 'figma', 'ai', 'mcp', 'tokens'],
       },
     ],
   },

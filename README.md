@@ -93,6 +93,10 @@ Browser-based IDE with prompt-to-code AI for quick experiments.
 [subframe.com](https://www.subframe.com)  
 Designs, prototypes, and exports production-ready code with reusable components.
 
+**Spline**  
+[spline.design](https://spline.design/)  
+Web-based collaborative 3D design platform for interactive, production-ready experiences.
+
 **Uizard**  
 [uizard.io](https://uizard.io)  
 Turns prompts, sketches, or screenshots into designs for rapid ideation.
@@ -110,6 +114,10 @@ Vercel UI generator that accepts prompts or Figma files and outputs React.
 **Component.gallery**  
 [component.gallery/design-systems](https://component.gallery/design-systems/)  
 Curated index of components across major design systems for research.
+
+**Layout**  
+[layout.design](https://layout.design)  
+Connects design systems from Figma or websites to AI coding agents with structured context.
 
 **Storybook**  
 [storybook.js.org](https://storybook.js.org)  
