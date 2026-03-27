@@ -1,6 +1,6 @@
 # Cool Tools
 
-A small collection of useful design tools.
+A small collection of design focused tools.
 
 Search and TOC availible on full site: [tools.abl.design](https://tools.abl.design)
 
