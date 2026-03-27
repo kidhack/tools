@@ -2,9 +2,9 @@
 
 A small collection of useful design tools.
 
-[tools.abl.design](https://tools.abl.design)
+Search and TOC availible on full site: [tools.abl.design](https://tools.abl.design)
 
-Site source: `site/`
+
 
 ## Categories
 
