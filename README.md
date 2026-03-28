@@ -360,3 +360,11 @@ Industry-leading AI video generation and creative editing platform.
 **Gamma**  
 [gamma.app](https://gamma.app)  
 AI-powered tool for presentations, lightweight websites, and social posts.
+
+**Xnapper**  
+[xnapper.com](https://xnapper.com)  
+Mac screenshot app for quickly creating polished screenshots with automatic balancing and redaction.
+
+**xScope**  
+[xscopeapp.com](https://xscopeapp.com)  
+Screen measurement and inspection toolkit for testing on-screen graphics and layouts.

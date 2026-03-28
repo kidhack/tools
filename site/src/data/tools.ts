@@ -609,6 +609,18 @@ export const categories: Category[] = [
         url: 'https://gamma.app',
         tags: ['presentations', 'ai', 'websites'],
       },
+      {
+        name: 'xScope',
+        description: 'Screen measurement and inspection toolkit for testing on-screen graphics and layouts.',
+        url: 'https://xscopeapp.com',
+        tags: ['measurement', 'inspection', 'layout', 'macos', 'screenshots'],
+      },
+      {
+        name: 'Xnapper',
+        description: 'Mac screenshot app for quickly creating polished screenshots with automatic balancing and redaction.',
+        url: 'https://xnapper.com',
+        tags: ['screenshots', 'macos', 'sharing', 'redaction'],
+      },
     ],
   },
 ]
