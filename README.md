@@ -209,6 +209,10 @@ Massive library of real mobile and web UI screenshots searchable by pattern.
 [shapeof.ai](https://www.shapeof.ai)  
 Best practices and UI patterns for AI-powered products.
 
+**Spotted in Prod**  
+[spottedinprod.com](https://www.spottedinprod.com)  
+Curated collection of standout iOS product details, interactions, and interface patterns.
+
 ## LLMs
 
 **ChatGPT**  

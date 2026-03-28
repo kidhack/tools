@@ -570,6 +570,12 @@ export const categories: Category[] = [
         tags: ['ai', 'ux-patterns', 'best-practices'],
       },
       {
+        name: 'Spotted in Prod',
+        description: 'Curated collection of standout iOS product details, interactions, and interface patterns.',
+        url: 'https://www.spottedinprod.com',
+        tags: ['inspiration', 'ios', 'ui-patterns', 'product-design'],
+      },
+      {
         name: 'Godly',
         description: 'Curated showcase of standout website design filtered by style and type.',
         url: 'https://godly.website',
