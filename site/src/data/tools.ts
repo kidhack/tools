@@ -54,12 +54,6 @@ export const categories: Category[] = [
     description: 'AI tools for generating UI designs, prototypes, and code from prompts or Figma.',
     tools: [
       {
-        name: 'Galileo AI',
-        description: 'Turns text prompts into polished, Figma-ready UI designs.',
-        url: 'https://www.usegalileo.ai/',
-        tags: ['figma', 'prompt-to-design', 'ui-generation'],
-      },
-      {
         name: 'UXPilot',
         description: 'AI UX assistant with versatile review and generation tools.',
         url: 'https://uxpilot.ai',

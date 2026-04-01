@@ -61,10 +61,6 @@ AI-first code editor for working alongside AI on real codebases.
 [fray.design](https://fray.design)  
 Imports Figma frames, creates layout variations, and exports clean frames back.
 
-**Galileo AI**  
-[usegalileo.ai](https://www.usegalileo.ai/)  
-Turns text prompts into polished, Figma-ready UI designs.
-
 **Google Stitch**  
 [stitch.withgoogle.com](https://stitch.withgoogle.com)  
 Google AI design tool for generating app UI from prompts and exporting to code or Figma.
