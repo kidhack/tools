@@ -6,12 +6,13 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "deploy": "npm run build",
     "preview": "astro preview"
   },
   "keywords": [
     "astro",
     "design-tools",
-    "github-pages"
+    "static-site"
   ],
   "author": "",
   "license": "MIT",
