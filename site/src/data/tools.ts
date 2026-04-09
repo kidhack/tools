@@ -105,6 +105,13 @@ export const categories: Category[] = [
         tags: ['vercel', 'react', 'figma', 'prompt-to-code'],
       },
       {
+        name: 'Aura',
+        description:
+          'AI UI and multi-page site builder with a visual editor, prompt- and image-to-code flows, Tailwind/HTML output, and Figma export.',
+        url: 'https://www.aura.build',
+        tags: ['tailwind', 'figma', 'prompt-to-code', 'website', 'ai-generation', 'components'],
+      },
+      {
         name: 'Bolt',
         description: 'Turns a prompt or Figma import into a full app in the browser.',
         url: 'https://bolt.new',
@@ -148,6 +155,14 @@ export const categories: Category[] = [
         url: 'https://www.pencil.dev',
         badge: 'new',
         tags: ['canvas', 'ai', 'agent', 'mcp', 'code-generation'],
+      },
+      {
+        name: 'Paper',
+        description:
+          'Connected team canvas on web standards (HTML/CSS) that links agents, code, and real data so design and handoff stay in sync.',
+        url: 'https://paper.design',
+        badge: 'new',
+        tags: ['canvas', 'collaboration', 'agents', 'code-sync', 'html-css', 'mcp'],
       },
     ],
   },
@@ -597,6 +612,13 @@ export const categories: Category[] = [
     label: 'Visual Productivity',
     description: 'Tools for presentations, canvases, and visual communication.',
     tools: [
+      {
+        name: 'Chronicle',
+        description:
+          'AI presentation maker for professional, on-brand decks with a freeform canvas, team collaboration, templates, and export to PPT, PDF, or the web.',
+        url: 'https://chroniclehq.com',
+        tags: ['presentations', 'ai', 'collaboration', 'slides', 'brand'],
+      },
       {
         name: 'Gamma',
         description: 'AI-powered tool for presentations, lightweight websites, and social posts.',

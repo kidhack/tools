@@ -2,7 +2,7 @@
 
 A small collection of design focused tools.
 
-Search and TOC availible on full site: [tools.abl.design](https://tools.abl.design)
+Search and TOC available on full site: [tools.abl.design](https://tools.abl.design)
 
 
 
@@ -45,6 +45,10 @@ Tailwind-compatible color palette generator.
 
 ## Design & Code
 
+**Aura**  
+[aura.build](https://www.aura.build)  
+AI UI and multi-page site builder with a visual editor, prompt- and image-to-code flows, Tailwind/HTML output, and Figma export.
+
 **Bolt**  
 [bolt.new](https://bolt.new)  
 Turns a prompt or Figma import into a full app in the browser.
@@ -72,6 +76,10 @@ Builds production-ready apps from prompts with Figma import support.
 **Magic Patterns**  
 [magicpatterns.com](https://www.magicpatterns.com)  
 Generates code from prompts, images, or Figma and exports to Figma and GitHub.
+
+**Paper**  
+[paper.design](https://paper.design)  
+Connected team canvas on web standards (HTML/CSS) that links agents, code, and real data so design and handoff stay in sync.
 
 **Pencil**  
 [pencil.dev](https://www.pencil.dev)  
@@ -352,6 +360,10 @@ Interactive runtime animation tool for production interfaces across platforms.
 Industry-leading AI video generation and creative editing platform.
 
 ## Visual Productivity
+
+**Chronicle**  
+[chroniclehq.com](https://chroniclehq.com)  
+AI presentation maker for professional, on-brand decks with a freeform canvas, team collaboration, templates, and export to PPT, PDF, or the web.
 
 **Gamma**  
 [gamma.app](https://gamma.app)  
