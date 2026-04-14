@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "update-readme": "tsx scripts/update-readme.ts",
+    "prebuild": "npm run update-readme",
     "build": "astro build",
     "deploy": "npm run build",
     "preview": "astro preview"
@@ -21,5 +23,8 @@
     "@astrojs/sitemap": "^3.7.2",
     "astro": "^6.1.1",
     "fuse.js": "^7.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4"
   }
 }

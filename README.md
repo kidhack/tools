@@ -6,22 +6,30 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 
 
+<!-- tools:readme:start -->
+
 ## Categories
 
-- [Color](#color)
-- [Design & Code](#design--code)
-- [Design Systems](#design-systems)
-- [Iconography](#iconography)
-- [Image Generation](#image-generation)
-- [Inspiration](#inspiration)
-- [LLMs](#llms)
-- [Markdown](#markdown)
-- [Research & Testing](#research--testing)
-- [Typography](#typography)
-- [Video & Motion](#video--motion)
-- [Visual Productivity](#visual-productivity)
+**91** tools in **14** categories — live directory with search: **[tools.abl.design](https://tools.abl.design/)**
+
+- [Color](https://tools.abl.design/#color)
+- [Design & Code](https://tools.abl.design/#design-and-code)
+- [Design Systems](https://tools.abl.design/#design-systems)
+- [Iconography](https://tools.abl.design/#iconography)
+- [Image Generation](https://tools.abl.design/#image-generation)
+- [Inspiration](https://tools.abl.design/#inspiration)
+- [LLMs](https://tools.abl.design/#assistants)
+- [Markdown](https://tools.abl.design/#markdown)
+- [Presentations & storytelling](https://tools.abl.design/#presentations-storytelling)
+- [Productivity](https://tools.abl.design/#productivity)
+- [Research & Testing](https://tools.abl.design/#research-testing)
+- [Typography](https://tools.abl.design/#typography)
+- [Video & Motion](https://tools.abl.design/#video-motion)
+- [Visual Productivity](https://tools.abl.design/#visual-productivity)
 
 ## Color
+
+Palette generators, shade tools, and accessibility checkers.
 
 **InclusiveColors**  
 [inclusivecolors.com](https://www.inclusivecolors.com/)  
@@ -40,10 +48,13 @@ Tailwind CSS shade generator for color scales.
 Generates tint and shade scales from a base color.
 
 **UI Colors**  
-[uicolors.app/create](https://uicolors.app/create)  
+[uicolors.app](https://uicolors.app/create)  
 Tailwind-compatible color palette generator.
 
+
 ## Design & Code
+
+AI tools for generating UI designs, prototypes, and code from prompts or Figma.
 
 **Aura**  
 [aura.build](https://www.aura.build)  
@@ -60,6 +71,10 @@ Visual development platform with prompt, website, and Figma-to-code workflows.
 **Cursor**  
 [cursor.com](https://www.cursor.com)  
 AI-first code editor for working alongside AI on real codebases.
+
+**Figma**  
+[figma.com](https://www.figma.com)  
+Collaborative interface design and prototyping in the browser, with design systems, FigJam, and dev handoff.
 
 **Fray**  
 [fray.design](https://fray.design)  
@@ -93,17 +108,21 @@ Turns outlines into website wireframes and exports to Figma, Webflow, and React.
 [replit.com](https://replit.com)  
 Browser-based IDE with prompt-to-code AI for quick experiments.
 
-**Subframe**  
-[subframe.com](https://www.subframe.com)  
-Designs, prototypes, and exports production-ready code with reusable components.
-
 **Spline**  
 [spline.design](https://spline.design/)  
 Web-based collaborative 3D design platform for interactive, production-ready experiences.
 
+**Subframe**  
+[subframe.com](https://www.subframe.com)  
+Designs, prototypes, and exports production-ready code with reusable components.
+
 **Uizard**  
 [uizard.io](https://uizard.io)  
 Turns prompts, sketches, or screenshots into designs for rapid ideation.
+
+**Unicorn Studio**  
+[unicorn.studio](https://www.unicorn.studio)  
+No-code WebGL scene builder for interactive, shader-driven graphics in the browser—layers, effects, and export for sites, Framer, Webflow, and video.
 
 **UXPilot**  
 [uxpilot.ai](https://uxpilot.ai)  
@@ -113,10 +132,13 @@ AI UX assistant with versatile review and generation tools.
 [v0.dev](https://v0.dev)  
 Vercel UI generator that accepts prompts or Figma files and outputs React.
 
+
 ## Design Systems
 
+Tools for building, documenting, and scaling design systems.
+
 **Component.gallery**  
-[component.gallery/design-systems](https://component.gallery/design-systems/)  
+[component.gallery](https://component.gallery/design-systems/)  
 Curated index of components across major design systems for research.
 
 **Layout**  
@@ -143,14 +165,17 @@ Quickly scaffolds a base design system with starter components.
 [zeroheight.com](https://zeroheight.com)  
 Living documentation platform for design systems and style guides.
 
+
 ## Iconography
+
+Icon libraries and frameworks for UI design and development.
 
 **Font Awesome**  
 [fontawesome.com](https://fontawesome.com)  
 Established icon library with a huge range of icons and styles.
 
 **Google Icons**  
-[fonts.google.com/icons](https://fonts.google.com/icons)  
+[fonts.google.com](https://fonts.google.com/icons)  
 Google Material Symbols icon set with adjustable font-based properties.
 
 **Hero Icons**  
@@ -161,6 +186,10 @@ Hand-crafted SVG icons by the Tailwind CSS team.
 [iconify.design](https://iconify.design)  
 Universal icon framework with more than 200,000 icons from many sets.
 
+**Iconshock**  
+[iconshock.com](https://www.iconshock.com)  
+Large library of royalty-free icons in many styles and formats for apps and sites.
+
 **Lucide**  
 [lucide.dev](https://lucide.dev)  
 Clean and consistent open-source icon set popular in React ecosystems.
@@ -169,15 +198,26 @@ Clean and consistent open-source icon set popular in React ecosystems.
 [pikaicons.com](https://pikaicons.com)  
 Premium icon set with a wide range of styles.
 
+**The Noun Project**  
+[thenounproject.com](https://thenounproject.com)  
+Huge collection of icons for any idea, with SVG and PNG downloads and licensing options.
+
 **Untitled UI Icons**  
-[untitledui.com/icons](https://www.untitledui.com/icons)  
+[untitledui.com](https://www.untitledui.com/icons)  
 Clean modern icon library with free and pro tiers.
+
 
 ## Image Generation
 
+AI image generators and canvas workflows for concept art, mockups, and creative direction.
+
 **Adobe Firefly**  
-[adobe.com/products/firefly.html](https://www.adobe.com/products/firefly.html)  
+[adobe.com](https://www.adobe.com/products/firefly.html)  
 Adobe image generator trained on licensed content and integrated with Creative Cloud.
+
+**Flora**  
+[flora.ai](https://flora.ai)  
+Team canvas with 50+ generative models for image-led ideation, reusable flows, and scalable campaign output.
 
 **Midjourney**  
 [midjourney.com](https://www.midjourney.com)  
@@ -187,7 +227,10 @@ High-quality AI image generation known for artistic and photographic output.
 [reve.art](https://reve.art)  
 Fast, high-quality AI image generation for visual exploration.
 
+
 ## Inspiration
+
+Curated galleries and learning resources for designers.
 
 **Awwwards**  
 [awwwards.com](https://www.awwwards.com)  
@@ -217,7 +260,10 @@ Best practices and UI patterns for AI-powered products.
 [spottedinprod.com](https://www.spottedinprod.com)  
 Curated collection of standout iOS product details, interactions, and interface patterns.
 
+
 ## LLMs
+
+General-purpose AI assistants for writing, reasoning, and research.
 
 **ChatGPT**  
 [chatgpt.com](https://chatgpt.com)  
@@ -235,10 +281,13 @@ Full-suite AI assistant by Google with deep Workspace integration.
 [perplexity.ai](https://www.perplexity.ai)  
 AI-powered research and search engine that is great for staying current.
 
+
 ## Markdown
 
+Text-based and markdown-driven tools for wireframes, diagrams, and lo-fi mockups.
+
 **MarkEdit**  
-[github.com/MarkEdit-app/MarkEdit](https://github.com/MarkEdit-app/MarkEdit)  
+[github.com](https://github.com/MarkEdit-app/MarkEdit)  
 Free open-source Markdown editor for macOS with a native lightweight feel.
 
 **Mockdown**  
@@ -250,10 +299,43 @@ Free browser-based ASCII wireframe editor for lo-fi mockups and quick prototypes
 Local-first markdown knowledge base for linked notes and long-term thinking.
 
 **TAAG**  
-[patorjk.com/software/taag](https://patorjk.com/software/taag/)  
+[patorjk.com](https://patorjk.com/software/taag/)  
 Classic online text-to-ASCII art generator with dozens of font styles.
 
+
+## Presentations & storytelling
+
+AI-assisted decks, narrative sites, and slide-driven storytelling for teams.
+
+**Chronicle**  
+[chroniclehq.com](https://chroniclehq.com)  
+AI presentation maker for professional, on-brand decks with a freeform canvas, team collaboration, templates, and export to PPT, PDF, or the web.
+
+**Gamma**  
+[gamma.app](https://gamma.app)  
+AI-powered tool for presentations, lightweight websites, and social posts.
+
+
+## Productivity
+
+Meetings, calendar defense, and notes for people who live in their schedule.
+
+**Granola**  
+[granola.ai](https://www.granola.ai)  
+AI meeting notepad: transcribes from your device audio with no meeting bots, polishes the notes you jot during calls, and helps with follow-ups and summaries.
+
+**In Your Face**  
+[inyourface.app](https://www.inyourface.app)  
+Meeting reminder app for Mac, iPhone, and iPad: full-screen alerts before events, calendar sync, and one-tap join for 30+ video services.
+
+**Reclaim.ai**  
+[reclaim.ai](https://reclaim.ai)  
+AI scheduling for Google Calendar: auto-blocks focus time, habits, and meetings while keeping your calendar flexible.
+
+
 ## Research & Testing
+
+Tools for user research, testing, and product analytics.
 
 **Hey Marvin**  
 [heymarvin.com](https://heymarvin.com)  
@@ -263,7 +345,10 @@ AI-powered research repository for interviews, synthesis, and tagging.
 [logrocket.com](https://logrocket.com)  
 Session replay and product analytics for understanding user behavior.
 
+
 ## Typography
+
+Font libraries, pairing tools, and type references for designers.
 
 **ABC Dinamo**  
 [abcdinamo.com](https://abcdinamo.com)  
@@ -317,10 +402,13 @@ Type foundry offering free and premium typefaces popular with designers.
 [v-fonts.com](https://v-fonts.com)  
 Reference and showcase for variable fonts with rich filtering.
 
+
 ## Video & Motion
 
+Tools for video generation, animation, and motion design.
+
 **Adobe Firefly Video**  
-[adobe.com/products/firefly/features/ai-video-generator.html](https://www.adobe.com/products/firefly/features/ai-video-generator.html)  
+[adobe.com](https://www.adobe.com/products/firefly/features/ai-video-generator.html)  
 Adobe video generator built for commercial-safe workflows and Premiere integration.
 
 **Descript**  
@@ -332,7 +420,7 @@ AI-powered video and podcast editor with transcript-based editing.
 Lightweight SVG animation tool for quick motion experiments.
 
 **Google Veo**  
-[deepmind.google/models/veo](https://deepmind.google/models/veo/)  
+[deepmind.google](https://deepmind.google/models/veo/)  
 Google video generation model available through Gemini for cinematic clips.
 
 **Jitter**  
@@ -344,7 +432,7 @@ Fast and simple browser-based motion design tool.
 Standard workflow for bringing After Effects animations to web and native apps.
 
 **Luma Dream Machine**  
-[lumalabs.ai/dream-machine](https://lumalabs.ai/dream-machine)  
+[lumalabs.ai](https://lumalabs.ai/dream-machine)  
 High-quality AI video generation known for smooth and realistic motion.
 
 **Pika**  
@@ -359,15 +447,10 @@ Interactive runtime animation tool for production interfaces across platforms.
 [runwayml.com](https://runwayml.com)  
 Industry-leading AI video generation and creative editing platform.
 
+
 ## Visual Productivity
 
-**Chronicle**  
-[chroniclehq.com](https://chroniclehq.com)  
-AI presentation maker for professional, on-brand decks with a freeform canvas, team collaboration, templates, and export to PPT, PDF, or the web.
-
-**Gamma**  
-[gamma.app](https://gamma.app)  
-AI-powered tool for presentations, lightweight websites, and social posts.
+Screenshots and on-screen measurement for polish and QA.
 
 **Xnapper**  
 [xnapper.com](https://xnapper.com)  
@@ -376,3 +459,5 @@ Mac screenshot app for quickly creating polished screenshots with automatic bala
 **xScope**  
 [xscopeapp.com](https://xscopeapp.com)  
 Screen measurement and inspection toolkit for testing on-screen graphics and layouts.
+
+<!-- tools:readme:end -->
