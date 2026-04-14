@@ -6,6 +6,10 @@
   --line: #2d2d2d;
   --line-strong: #4a4a4a;
   --max-width: 72rem;
+  /* Fixed desktop TOC; used with .content max width so centered column clears the rail. */
+  --desktop-toc-right: 24px;
+  --desktop-toc-w: 12rem;
+  --desktop-main-toc-gap: 0.75rem;
 }
 
 *,
@@ -43,11 +47,16 @@ code {
   position: relative;
 }
 
+/* In-flow column reserve for narrow layout grid (sidebar is fixed, so this holds the gap + rail width). */
+.toc-gutter {
+  display: none;
+}
+
 .sidebar {
   position: fixed;
-  right: 24px;
+  right: var(--desktop-toc-right);
   top: 240px;
-  width: 12rem;
+  width: var(--desktop-toc-w);
   z-index: 10;
 }
 
@@ -56,8 +65,19 @@ code {
 }
 
 .content {
-  width: min(calc(100% - 3rem), 46rem);
+  /*
+    Centered column: cap by 46rem, legacy side inset, and viewport so the right edge
+    stays left of fixed TOC (see --desktop-*). Factor of 2: half-width from center to each side.
+  */
+  width: min(
+    calc(100% - 3rem),
+    46rem,
+    calc(
+      100vw - 2 * var(--desktop-toc-right) - 2 * var(--desktop-toc-w) - 2 * var(--desktop-main-toc-gap)
+    )
+  );
   margin: 0 auto;
+  padding-right: 8px;
   display: grid;
   gap: 1.5rem;
 }
@@ -153,6 +173,7 @@ code {
   padding: 0.15rem 0;
   color: var(--muted);
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .toc-tick {
@@ -179,50 +200,69 @@ code {
     color 120ms ease;
 }
 
-.toc-list a:hover,
-.toc-list a:focus-visible,
+/* Scroll spy drives .is-active. :hover is limited to real pointers — touch browsers “stick” :hover after tap. */
 .toc-list a.is-active {
   color: var(--text);
 }
 
-.toc-list a:hover .toc-tick,
-.toc-list a:focus-visible .toc-tick,
+.toc-list a:focus-visible {
+  outline: 2px solid var(--line-strong);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 .toc-list a.is-active .toc-tick {
   width: 1rem;
   background: var(--text);
 }
 
-.toc-list a:hover .toc-label,
-.toc-list a:focus-visible .toc-label,
 .toc-list a.is-active .toc-label {
   opacity: 1;
   color: var(--text);
 }
 
-.toc:hover .toc-label {
-  opacity: 1;
-  color: var(--muted);
-}
+@media (hover: hover) {
+  .toc-list a:hover {
+    color: var(--text);
+  }
 
-.toc:hover .toc-tick {
-  width: 0.75rem;
-  background: var(--line-strong);
-}
+  .toc-list a:hover .toc-tick {
+    width: 1rem;
+    background: var(--text);
+  }
 
-.toc:hover .toc-list a:hover .toc-tick,
-.toc:hover .toc-list a:focus-visible .toc-tick {
-  width: 1rem;
-  background: var(--text);
-}
+  .toc-list a:hover .toc-label {
+    opacity: 1;
+    color: var(--text);
+  }
 
-.toc:hover .toc-list a:hover .toc-label,
-.toc:hover .toc-list a:focus-visible .toc-label {
-  color: var(--text);
+  .toc:hover .toc-label {
+    opacity: 1;
+    color: var(--muted);
+  }
+
+  .toc:hover .toc-tick {
+    width: 0.75rem;
+    background: var(--line-strong);
+  }
+
+  .toc:hover .toc-list a:hover .toc-tick,
+  .toc:hover .toc-list a.is-active .toc-tick {
+    width: 1rem;
+    background: var(--text);
+  }
+
+  .toc:hover .toc-list a:hover .toc-label,
+  .toc:hover .toc-list a.is-active .toc-label {
+    color: var(--text);
+  }
 }
 
 #tool-results {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
+  min-width: 0;
 }
 
 .category-section {
@@ -298,24 +338,275 @@ code {
   display: none !important;
 }
 
-@media (max-width: 640px) {
+/* Phone only (<768px): centered shell, grid main + TOC rail. Desktop layout from 768px up. */
+@media (max-width: 767px) {
+  /* --layout-shell-w aligns fixed .sidebar with the centered shell; .toc-gutter mirrors TOC width in-flow. */
+  :root {
+    /*
+      Single margin token for both sides (viewport → shell). Uses the larger safe-area so
+      left/right stay symmetric on notched devices.
+    */
+    --layout-page-margin: max(1rem, env(safe-area-inset-left, 0px), env(safe-area-inset-right, 0px));
+    --layout-shell-w: min(calc(100vw - 2 * var(--layout-page-margin)), 72rem);
+    /* Space between main column and TOC rail (keep modest so main isn’t double-taxed vs old gap + 8px). */
+    --layout-toc-gap: 12px;
+  }
+
   .page-shell {
-    width: min(calc(100% - 1.25rem), var(--max-width));
-    margin: 0 auto;
-    padding-top: 1.25rem;
+    width: var(--layout-shell-w);
+    margin-inline: auto;
+    padding: 1.25rem 0 4rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) max-content;
+    column-gap: var(--layout-toc-gap);
+    align-items: start;
+    overflow-x: hidden;
+  }
+
+  /* In-flow clone of the TOC so column 2 width matches real labels; fixed .sidebar sits on top. */
+  .toc-gutter {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 1px;
+    pointer-events: none;
+    justify-self: end;
+  }
+
+  .toc-gutter-sizer {
+    visibility: hidden;
+    box-sizing: border-box;
+    padding-inline: 2px;
+    width: max-content;
+  }
+
+  .toc-gutter-sizer .toc {
+    width: max-content;
+  }
+
+  /* TOC fixed to viewport so it stays vertically centered on screen (not in document flow). */
+  .sidebar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Match shell’s viewport inset on the right (same as left when shell is centered). */
+    right: max(var(--layout-page-margin), calc((100vw - var(--layout-shell-w)) / 2));
+    width: max-content;
+    max-height: min(85vh, 100dvh - 2rem);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 10;
+    /* 2px each side ≈ 4px beyond label/tick box for hover/active tick growth */
+    padding-inline: 2px;
+    box-sizing: border-box;
+  }
+
+  .sidebar .toc {
+    width: max-content;
   }
 
   .content {
+    grid-column: 1;
+    grid-row: 1;
     width: 100%;
+    max-width: none;
+    min-width: 0;
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    justify-self: start;
   }
 
-  .sidebar {
-    display: none;
+  .toc-list {
+    gap: 0.12rem;
+  }
+
+  .toc-list a {
+    justify-content: flex-end;
+    gap: 0.35rem;
+    min-height: auto;
+    padding: 0.08rem 0;
+  }
+
+  /* Always show labels (no hover on touch); keep ticks like desktop */
+  .toc-label {
+    position: static;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    font-size: 0.7rem;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    white-space: normal;
+    text-align: right;
+    max-width: 100%;
+  }
+
+  .toc-tick {
+    width: 0.6rem;
+    flex-shrink: 0;
+  }
+
+  .toc-list a.is-active .toc-label {
+    opacity: 1;
+    color: var(--text);
+  }
+
+  .toc-list a.is-active .toc-tick {
+    width: 0.85rem;
+    background: var(--text);
   }
 
   .tool-heading {
     flex-direction: column;
     align-items: start;
     gap: 0.3rem;
+  }
+}
+
+/*
+  Tablet (768–1024px): same margin + grid model as mobile — centered shell, in-flow TOC gutter,
+  fixed sidebar aligned to the shell’s right edge (not raw viewport 24px).
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    --layout-page-margin: max(1rem, env(safe-area-inset-left, 0px), env(safe-area-inset-right, 0px));
+    --layout-shell-w: min(calc(100vw - 2 * var(--layout-page-margin)), 72rem);
+    /* Wider than phone (12px): breathing room between main column and TOC rail. */
+    --layout-toc-gap: 48px;
+  }
+
+  .page-shell {
+    width: var(--layout-shell-w);
+    margin-inline: auto;
+    padding: 1.25rem 0 4rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) max-content;
+    column-gap: var(--layout-toc-gap);
+    align-items: start;
+    overflow-x: hidden;
+  }
+
+  .toc-gutter {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 1px;
+    pointer-events: none;
+    justify-self: end;
+  }
+
+  .toc-gutter-sizer {
+    visibility: hidden;
+    box-sizing: border-box;
+    padding-inline: 2px;
+    width: max-content;
+  }
+
+  .toc-gutter-sizer .toc {
+    width: max-content;
+  }
+
+  /* Match visible sidebar TOC so the gutter column width equals the real rail (not desktop label rules). */
+  .toc-gutter-sizer .toc-list {
+    gap: 0.28rem;
+  }
+
+  .toc-gutter-sizer .toc-list a {
+    justify-content: flex-end;
+    gap: 0.4rem;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.15rem 0;
+  }
+
+  .toc-gutter-sizer .toc-label {
+    position: static;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    letter-spacing: 0.03em;
+    white-space: normal;
+    text-align: right;
+    max-width: 100%;
+  }
+
+  .toc-gutter-sizer .toc-tick {
+    width: 0.65rem;
+    flex-shrink: 0;
+  }
+
+  body .sidebar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: max(var(--layout-page-margin), calc((100vw - var(--layout-shell-w)) / 2));
+    left: auto;
+    width: max-content;
+    max-height: min(85vh, 100dvh - 2rem);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 10;
+    padding-inline: 2px;
+    box-sizing: border-box;
+  }
+
+  .sidebar .toc {
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .content {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    justify-self: start;
+  }
+
+  .sidebar .toc-list {
+    gap: 0.28rem;
+  }
+
+  .sidebar .toc-list a {
+    justify-content: flex-end;
+    gap: 0.4rem;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.15rem 0;
+  }
+
+  .sidebar .toc-label {
+    position: static;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    letter-spacing: 0.03em;
+    white-space: normal;
+    text-align: right;
+    max-width: 100%;
+  }
+
+  .sidebar .toc-tick {
+    width: 0.65rem;
+    flex-shrink: 0;
+  }
+
+  .sidebar .toc-list a.is-active .toc-label {
+    opacity: 1;
+    color: var(--text);
+  }
+
+  .sidebar .toc-list a.is-active .toc-tick {
+    width: 0.9rem;
+    background: var(--text);
   }
 }

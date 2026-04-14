@@ -13,8 +13,8 @@ const { categories } = Astro.props as Props;
     {categories.map((category) => (
       <li>
         <a href={`#${category.id}`} aria-label={category.label} data-toc-link={category.id}>
-          <span class="toc-tick" aria-hidden="true"></span>
           <span class="toc-label">{category.label}</span>
+          <span class="toc-tick" aria-hidden="true"></span>
         </a>
       </li>
     ))}

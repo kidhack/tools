@@ -54,6 +54,14 @@ export const categories: Category[] = [
     description: 'AI tools for generating UI designs, prototypes, and code from prompts or Figma.',
     tools: [
       {
+        name: 'Figma',
+        description:
+          'Collaborative interface design and prototyping in the browser, with design systems, FigJam, and dev handoff.',
+        url: 'https://www.figma.com',
+        badge: 'recommended',
+        tags: ['figma', 'prototyping', 'design-systems', 'collaboration', 'handoff'],
+      },
+      {
         name: 'UXPilot',
         description: 'AI UX assistant with versatile review and generation tools.',
         url: 'https://uxpilot.ai',
@@ -97,6 +105,14 @@ export const categories: Category[] = [
         description: 'Web-based collaborative 3D design platform for interactive, production-ready experiences.',
         url: 'https://spline.design/',
         tags: ['3d', 'interactive', 'motion', 'web', 'collaboration'],
+      },
+      {
+        name: 'Unicorn Studio',
+        description:
+          'No-code WebGL scene builder for interactive, shader-driven graphics in the browser—layers, effects, and export for sites, Framer, Webflow, and video.',
+        url: 'https://www.unicorn.studio',
+        badge: 'new',
+        tags: ['webgl', 'motion', 'interactive', 'browser-based', 'no-code', 'export'],
       },
       {
         name: 'v0',
@@ -203,7 +219,7 @@ export const categories: Category[] = [
   {
     id: 'image-generation',
     label: 'Image Generation',
-    description: 'AI image generators for concept art, mockup visuals, and creative direction.',
+    description: 'AI image generators and canvas workflows for concept art, mockups, and creative direction.',
     tools: [
       {
         name: 'Adobe Firefly',
@@ -223,6 +239,13 @@ export const categories: Category[] = [
         url: 'https://reve.art',
         badge: 'new',
         tags: ['image-generation', 'fast'],
+      },
+      {
+        name: 'Flora',
+        description:
+          'Team canvas with 50+ generative models for image-led ideation, reusable flows, and scalable campaign output.',
+        url: 'https://flora.ai',
+        tags: ['image-generation', 'canvas', 'workflows', 'collaboration', 'ai'],
       },
     ],
   },
@@ -552,6 +575,18 @@ export const categories: Category[] = [
         badge: 'free',
         tags: ['icons', 'google', 'material', 'variable-font'],
       },
+      {
+        name: 'Iconshock',
+        description: 'Large library of royalty-free icons in many styles and formats for apps and sites.',
+        url: 'https://www.iconshock.com',
+        tags: ['icons', 'vectors', 'stock', 'png', 'svg'],
+      },
+      {
+        name: 'The Noun Project',
+        description: 'Huge collection of icons for any idea, with SVG and PNG downloads and licensing options.',
+        url: 'https://thenounproject.com',
+        tags: ['icons', 'svg', 'png', 'stock', 'library'],
+      },
     ],
   },
   {
@@ -608,9 +643,9 @@ export const categories: Category[] = [
     ],
   },
   {
-    id: 'visual-productivity',
-    label: 'Visual Productivity',
-    description: 'Tools for presentations, canvases, and visual communication.',
+    id: 'presentations-storytelling',
+    label: 'Presentations & storytelling',
+    description: 'AI-assisted decks, narrative sites, and slide-driven storytelling for teams.',
     tools: [
       {
         name: 'Chronicle',
@@ -625,6 +660,13 @@ export const categories: Category[] = [
         url: 'https://gamma.app',
         tags: ['presentations', 'ai', 'websites'],
       },
+    ],
+  },
+  {
+    id: 'visual-productivity',
+    label: 'Visual Productivity',
+    description: 'Screenshots and on-screen measurement for polish and QA.',
+    tools: [
       {
         name: 'xScope',
         description: 'Screen measurement and inspection toolkit for testing on-screen graphics and layouts.',
@@ -636,6 +678,34 @@ export const categories: Category[] = [
         description: 'Mac screenshot app for quickly creating polished screenshots with automatic balancing and redaction.',
         url: 'https://xnapper.com',
         tags: ['screenshots', 'macos', 'sharing', 'redaction'],
+      },
+    ],
+  },
+  {
+    id: 'productivity',
+    label: 'Productivity',
+    description: 'Meetings, calendar defense, and notes for people who live in their schedule.',
+    tools: [
+      {
+        name: 'Granola',
+        description:
+          'AI meeting notepad: transcribes from your device audio with no meeting bots, polishes the notes you jot during calls, and helps with follow-ups and summaries.',
+        url: 'https://www.granola.ai',
+        tags: ['meetings', 'notes', 'transcription', 'ai', 'macos'],
+      },
+      {
+        name: 'In Your Face',
+        description:
+          'Meeting reminder app for Mac, iPhone, and iPad: full-screen alerts before events, calendar sync, and one-tap join for 30+ video services.',
+        url: 'https://www.inyourface.app',
+        tags: ['meetings', 'calendar', 'reminders', 'macos', 'ios', 'productivity'],
+      },
+      {
+        name: 'Reclaim.ai',
+        description:
+          'AI scheduling for Google Calendar: auto-blocks focus time, habits, and meetings while keeping your calendar flexible.',
+        url: 'https://reclaim.ai',
+        tags: ['calendar', 'scheduling', 'time-blocking', 'productivity', 'google-calendar'],
       },
     ],
   },
