@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**91** tools in **14** categories — live directory with search: **[tools.abl.design](https://tools.abl.design/)**
+**91** tools in **14** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
