@@ -153,6 +153,13 @@ export const categories: Category[] = [
         tags: ['figma', 'design-tokens', 'visual-dev'],
       },
       {
+        name: 'Claude Design',
+        description:
+          'Claude workspace for generating and iterating on visual design artifacts from prompts, uploads, and conversational refinement.',
+        url: 'https://claude.ai/design',
+        tags: ['anthropic', 'claude', 'ai-design', 'prototyping', 'prompt-to-design', 'html'],
+      },
+      {
         name: 'Lovable',
         description: 'Builds production-ready apps from prompts with Figma import support.',
         url: 'https://lovable.dev',

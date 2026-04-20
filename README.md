@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**113** tools in **15** categories
+**114** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -68,6 +68,10 @@ Turns a prompt or Figma import into a full app in the browser.
 **Builder.io**  
 [builder.io](https://www.builder.io)  
 Visual development platform with prompt, website, and Figma-to-code workflows.
+
+**Claude Design**  
+[claude.ai](https://claude.ai/design)  
+Claude workspace for generating and iterating on visual design artifacts from prompts, uploads, and conversational refinement.
 
 **Cursor**  
 [cursor.com](https://www.cursor.com)  
