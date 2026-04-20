@@ -81,6 +81,12 @@ export const categories: Category[] = [
         tags: ['figma', 'github', 'code-export', 'components'],
       },
       {
+        name: 'MagicPath',
+        description: 'AI design tool for creating, refining, and exploring apps and websites with a prompt-driven workflow.',
+        url: 'https://magicpath.ai/',
+        tags: ['ai', 'design', 'prompt-to-app', 'website', 'prototyping'],
+      },
+      {
         name: 'Fray',
         description: 'Imports Figma frames, creates layout variations, and exports clean frames back.',
         url: 'https://fray.design',

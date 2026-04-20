@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**111** tools in **15** categories
+**112** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -92,6 +92,10 @@ Builds production-ready apps from prompts with Figma import support.
 **Magic Patterns**  
 [magicpatterns.com](https://www.magicpatterns.com)  
 Generates code from prompts, images, or Figma and exports to Figma and GitHub.
+
+**MagicPath**  
+[magicpath.ai](https://magicpath.ai/)  
+AI design tool for creating, refining, and exploring apps and websites with a prompt-driven workflow.
 
 **Paper**  
 [paper.design](https://paper.design)  
