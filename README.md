@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**92** tools in **15** categories — live directory with search: **[tools.abl.design](https://tools.abl.design/)**
+**94** tools in **15** categories — live directory with search: **[tools.abl.design](https://tools.abl.design/)**
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -225,9 +225,17 @@ AI image generators and canvas workflows for concept art, mockups, and creative 
 [adobe.com](https://www.adobe.com/products/firefly.html)  
 Adobe image generator trained on licensed content and integrated with Creative Cloud.
 
+**Figma Weave**  
+[weave.figma.com](https://weave.figma.com)  
+Node-based creative platform from Figma that combines multiple AI models with professional editing tools for scalable media workflows.
+
 **Flora**  
 [flora.ai](https://flora.ai)  
 Team canvas with 50+ generative models for image-led ideation, reusable flows, and scalable campaign output.
+
+**Lummi**  
+[lummi.ai](https://lummi.ai)  
+Curated library of free AI stock photos, illustrations, and 3D renders from human creators.
 
 **Midjourney**  
 [midjourney.com](https://www.midjourney.com)  

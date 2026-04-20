@@ -247,6 +247,20 @@ export const categories: Category[] = [
         url: 'https://flora.ai',
         tags: ['image-generation', 'canvas', 'workflows', 'collaboration', 'ai'],
       },
+      {
+        name: 'Figma Weave',
+        description:
+          'Node-based creative platform from Figma that combines multiple AI models with professional editing tools for scalable media workflows.',
+        url: 'https://weave.figma.com',
+        tags: ['figma', 'ai', 'canvas', 'workflows', 'image-generation', 'video'],
+      },
+      {
+        name: 'Lummi',
+        description: 'Curated library of free AI stock photos, illustrations, and 3D renders from human creators.',
+        url: 'https://lummi.ai',
+        badge: 'free',
+        tags: ['stock', 'photos', 'illustration', '3d', 'ai', 'free'],
+      },
     ],
   },
   {
