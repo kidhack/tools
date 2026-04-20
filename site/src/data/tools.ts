@@ -234,6 +234,14 @@ export const categories: Category[] = [
         url: 'https://obsidian.md',
         tags: ['markdown', 'notes', 'knowledge-base', 'local-first', 'pkm'],
       },
+      {
+        name: 'Awesome Design MD',
+        description:
+          'Curated DESIGN.md templates inspired by popular brand design systems—drop-in specs for AI coding agents to match UI conventions.',
+        url: 'https://github.com/VoltAgent/awesome-design-md',
+        badge: 'free',
+        tags: ['markdown', 'design-system', 'agents', 'github', 'open-source', 'free'],
+      },
     ],
   },
   {

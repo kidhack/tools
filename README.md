@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**114** tools in **15** categories
+**115** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -383,6 +383,10 @@ AI-powered research and search engine that is great for staying current.
 ## Markdown
 
 Text-based and markdown-driven tools for wireframes, diagrams, and lo-fi mockups.
+
+**Awesome Design MD**  
+[github.com](https://github.com/VoltAgent/awesome-design-md)  
+Curated DESIGN.md templates inspired by popular brand design systems—drop-in specs for AI coding agents to match UI conventions.
 
 **MarkEdit**  
 [github.com](https://github.com/MarkEdit-app/MarkEdit)  
