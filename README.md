@@ -10,11 +10,12 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**91** tools in **14** categories
+**92** tools in **15** categories — live directory with search: **[tools.abl.design](https://tools.abl.design/)**
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
 - [Design Systems](https://tools.abl.design/#design-systems)
+- [Figma plugins](https://tools.abl.design/#figma-plugins)
 - [Iconography](https://tools.abl.design/#iconography)
 - [Image Generation](https://tools.abl.design/#image-generation)
 - [Inspiration](https://tools.abl.design/#inspiration)
@@ -164,6 +165,15 @@ Quickly scaffolds a base design system with starter components.
 **Zeroheight**  
 [zeroheight.com](https://zeroheight.com)  
 Living documentation platform for design systems and style guides.
+
+
+## Figma plugins
+
+Figma plugins that extend the canvas with automation, AI, and workflow helpers.
+
+**Figma Intelligence**  
+[figma-intelligence.vercel.app](https://figma-intelligence.vercel.app/#how-to-install)  
+Free Figma plugin that connects Claude, OpenAI, Gemini, Perplexity, Stitch, and external tools via MCP for design, tokens, accessibility, and code workflows.
 
 
 ## Iconography

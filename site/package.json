@@ -8,6 +8,7 @@
     "update-readme": "tsx scripts/update-readme.ts",
     "prebuild": "npm run update-readme",
     "build": "astro build",
+    "package:dist": "rm -f dist-package.zip && npm run build && (cd dist && zip -r ../dist-package.zip .)",
     "deploy": "npm run build",
     "preview": "astro preview"
   },

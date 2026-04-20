@@ -374,6 +374,20 @@ export const categories: Category[] = [
     ],
   },
   {
+    id: 'figma-plugins',
+    label: 'Figma plugins',
+    description: 'Figma plugins that extend the canvas with automation, AI, and workflow helpers.',
+    tools: [
+      {
+        name: 'Figma Intelligence',
+        description:
+          'Free Figma plugin that connects Claude, OpenAI, Gemini, Perplexity, Stitch, and external tools via MCP for design, tokens, accessibility, and code workflows.',
+        url: 'https://figma-intelligence.vercel.app/#how-to-install',
+        tags: ['figma', 'plugin', 'mcp', 'ai', 'accessibility', 'tokens', 'code'],
+      },
+    ],
+  },
+  {
     id: 'research-testing',
     label: 'Research & Testing',
     description: 'Tools for user research, testing, and product analytics.',
