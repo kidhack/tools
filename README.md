@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**108** tools in **15** categories
+**111** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -142,9 +142,21 @@ Tools for building, documenting, and scaling design systems.
 [component.gallery](https://component.gallery/design-systems/)  
 Curated index of components across major design systems for research.
 
+**Design Systems for Figma**  
+[designsystemsforfigma.com](https://www.designsystemsforfigma.com)  
+Directory of design system libraries in Figma with implementation language and token notes.
+
+**Design Systems Surf**  
+[designsystems.surf](https://designsystems.surf)  
+Reference hub for notable product design systems, with libraries, components, and articles.
+
 **Layout**  
 [layout.design](https://layout.design)  
 Connects design systems from Figma or websites to AI coding agents with structured context.
+
+**Open Design Systems**  
+[designsystems.com](https://www.designsystems.com/open-design-systems/)  
+Curated directory of open design system kits published on the Figma Community.
 
 **Storybook**  
 [storybook.js.org](https://storybook.js.org)  

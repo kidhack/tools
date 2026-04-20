@@ -367,6 +367,12 @@ export const categories: Category[] = [
         tags: ['documentation', 'style-guide', 'figma'],
       },
       {
+        name: 'Open Design Systems',
+        description: 'Curated directory of open design system kits published on the Figma Community.',
+        url: 'https://www.designsystems.com/open-design-systems/',
+        tags: ['figma', 'community', 'open-source', 'design-system', 'directory'],
+      },
+      {
         name: 'UIMate',
         description: 'Quickly scaffolds a base design system with starter components.',
         url: 'https://www.uimate.design',
@@ -378,6 +384,18 @@ export const categories: Category[] = [
         url: 'https://component.gallery/design-systems/',
         badge: 'free',
         tags: ['reference', 'components', 'research', 'design-system'],
+      },
+      {
+        name: 'Design Systems for Figma',
+        description: 'Directory of design system libraries in Figma with implementation language and token notes.',
+        url: 'https://www.designsystemsforfigma.com',
+        tags: ['figma', 'directory', 'design-system', 'libraries', 'tokens'],
+      },
+      {
+        name: 'Design Systems Surf',
+        description: 'Reference hub for notable product design systems, with libraries, components, and articles.',
+        url: 'https://designsystems.surf',
+        tags: ['design-system', 'reference', 'directory', 'research'],
       },
       {
         name: 'Layout',
