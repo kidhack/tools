@@ -121,6 +121,13 @@ export const categories: Category[] = [
         tags: ['webgl', 'motion', 'interactive', 'browser-based', 'no-code', 'export'],
       },
       {
+        name: 'Shader Lab',
+        description:
+          'Browser shader playground for stacking retro effects like CRT, dithering, scanlines, and bloom with live controls.',
+        url: 'https://eng.basement.studio/tools/shader-lab',
+        tags: ['shader', 'webgl', 'effects', 'crt', 'retro', 'browser-based'],
+      },
+      {
         name: 'v0',
         description: 'Vercel UI generator that accepts prompts or Figma files and outputs React.',
         url: 'https://v0.dev',

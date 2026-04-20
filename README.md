@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**112** tools in **15** categories
+**113** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -112,6 +112,10 @@ Turns outlines into website wireframes and exports to Figma, Webflow, and React.
 **Replit**  
 [replit.com](https://replit.com)  
 Browser-based IDE with prompt-to-code AI for quick experiments.
+
+**Shader Lab**  
+[eng.basement.studio](https://eng.basement.studio/tools/shader-lab)  
+Browser shader playground for stacking retro effects like CRT, dithering, scanlines, and bloom with live controls.
 
 **Spline**  
 [spline.design](https://spline.design/)  
