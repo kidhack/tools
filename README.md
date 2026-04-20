@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**94** tools in **15** categories — live directory with search: **[tools.abl.design](https://tools.abl.design/)**
+**108** tools in **15** categories — live directory with search: **[tools.abl.design](https://tools.abl.design/)**
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -171,9 +171,65 @@ Living documentation platform for design systems and style guides.
 
 Figma plugins that extend the canvas with automation, AI, and workflow helpers.
 
+**A11y — Color Contrast Checker**  
+[figma.com](https://www.figma.com/community/plugin/733159460536249875/a11y-color-contrast-checker)  
+Checks text and UI color contrast against WCAG targets directly inside Figma.
+
+**Autoflow**  
+[figma.com](https://www.figma.com/community/plugin/733902567457592893/autoflow)  
+Draws user flows and diagrams as editable connector lines between frames and shapes.
+
+**Brandfetch**  
+[figma.com](https://www.figma.com/community/plugin/733590967040604714/brandfetch)  
+Pulls official brand logos, colors, and typography into Figma from Brandfetch.
+
+**Dither**  
+[figma.com](https://www.figma.com/community/plugin/1420427052856622613/dither-apply-amazing-dithering-effect-for-any-images)  
+Applies stylized dithering effects to images for retro, print, and texture-driven visuals.
+
+**Export Comments**  
+[figma.com](https://www.figma.com/community/plugin/930702747188058634/export-comments)  
+Exports Figma comments for sharing, archiving, and handoff outside the file.
+
+**Feather Icons**  
+[figma.com](https://www.figma.com/community/plugin/744047966581015514/feather-icons)  
+Inserts Feather icons as editable vectors with consistent stroke styling.
+
 **Figma Intelligence**  
 [figma-intelligence.vercel.app](https://figma-intelligence.vercel.app/#how-to-install)  
 Free Figma plugin that connects Claude, OpenAI, Gemini, Perplexity, Stitch, and external tools via MCP for design, tokens, accessibility, and code workflows.
+
+**Font Awesome Icons**  
+[figma.com](https://www.figma.com/community/plugin/774202616885508874/font-awesome-icons)  
+Search and place Font Awesome icons directly on the canvas.
+
+**HTML to Design**  
+[figma.com](https://www.figma.com/community/plugin/1159123024924461424/html-to-design-by-divriots-import-websites-to-figma-designs-web-html-css)  
+Imports live webpages into editable Figma frames using HTML and CSS.
+
+**Isometric**  
+[figma.com](https://www.figma.com/community/plugin/741184519069077841/isometric)  
+Transforms layers into isometric projections for illustrative UI mockups.
+
+**Lorem Ipsum**  
+[figma.com](https://www.figma.com/community/plugin/736000994034548392/lorem-ipsum-by-divriots)  
+Generates placeholder text with flexible length and formatting options.
+
+**LottieFiles**  
+[figma.com](https://www.figma.com/community/plugin/809860933081065308/lottiefiles-discover-create-export-lottie-animations)  
+Browse community Lottie animations and insert or export Lottie from Figma.
+
+**Map Maker**  
+[figma.com](https://www.figma.com/community/plugin/731312569747199418)  
+Generates editable map imagery from Google Maps or Mapbox inside Figma frames.
+
+**Material Design Icons**  
+[figma.com](https://www.figma.com/community/plugin/740272380439725040/material-design-icons)  
+Adds Google’s Material Symbols / icon set as scalable vectors for UI work.
+
+**Pixels**  
+[figma.com](https://www.figma.com/community/plugin/775716538746765221/pixels)  
+Snaps measurements, spacing, and alignment checks while you design in Figma.
 
 
 ## Iconography
