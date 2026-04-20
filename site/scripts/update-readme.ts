@@ -38,7 +38,7 @@ function generatedBody(): string {
     })
     .join('\n');
 
-  return `## Categories\n\n**${totalTools}** tools in **${categories.length}** categories — live directory with search: **[${site.replace('https://', '')}](${site}/)**\n\n${toc}\n\n${sections}`;
+  return `## Categories\n\n**${totalTools}** tools in **${categories.length}** categories\n\n${toc}\n\n${sections}`;
 }
 
 function main(): void {
