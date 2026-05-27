@@ -638,6 +638,13 @@ export const categories: Category[] = [
         badge: 'free',
         tags: ['foundry', 'open-source', 'free', 'curated'],
       },
+      {
+        name: 'Analyze Any Font',
+        description: 'Extracts webfonts from any URL and suggests free open-source alternatives.',
+        url: 'https://font-stealer.vercel.app',
+        badge: 'free',
+        tags: ['fonts', 'webfonts', 'extractor', 'alternatives', 'free'],
+      },
     ],
   },
   {

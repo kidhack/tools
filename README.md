@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**115** tools in **15** categories
+**116** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -459,6 +459,10 @@ Berlin-based foundry known for contemporary experimental typefaces.
 **Adobe Fonts**  
 [fonts.adobe.com](https://fonts.adobe.com)  
 Professional font library included with Creative Cloud.
+
+**Analyze Any Font**  
+[font-stealer.vercel.app](https://font-stealer.vercel.app)  
+Extracts webfonts from any URL and suggests free open-source alternatives.
 
 **Connary Fagen**  
 [connary.com](https://connary.com)  
