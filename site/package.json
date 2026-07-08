@@ -9,7 +9,7 @@
     "prebuild": "npm run update-readme",
     "build": "astro build",
     "package:dist": "rm -f dist-package.zip && npm run build && (cd dist && zip -r ../dist-package.zip .)",
-    "deploy": "npm run build && rsync -avz --delete --exclude='.prerender' dist/ abldotcom:~/tools.abl.design/",
+    "deploy": "npm run build && rsync -avz --delete --exclude='.prerender' --exclude='.dh-diag' --exclude='.well-known' dist/ abldotcom:~/tools.abl.design/",
     "preview": "astro preview"
   },
   "keywords": [
