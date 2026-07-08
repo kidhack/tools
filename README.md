@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**116** tools in **15** categories
+**119** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -71,7 +71,7 @@ Visual development platform with prompt, website, and Figma-to-code workflows.
 
 **Claude Design**  
 [claude.ai](https://claude.ai/design)  
-Claude workspace for generating and iterating on visual design artifacts from prompts, uploads, and conversational refinement.
+Claude workspace for prompt-driven design that imports real design systems, validates output against brand rules, and syncs bidirectionally with Claude Code.
 
 **Cursor**  
 [cursor.com](https://www.cursor.com)  
@@ -79,7 +79,11 @@ AI-first code editor for working alongside AI on real codebases.
 
 **Figma**  
 [figma.com](https://www.figma.com)  
-Collaborative interface design and prototyping in the browser, with design systems, FigJam, and dev handoff.
+Collaborative interface design and prototyping in the browser, with design systems, FigJam, native motion design, code layers, and dev handoff.
+
+**Framer**  
+[framer.com](https://www.framer.com)  
+No-code site builder with AI Agents built into the canvas for real-time co-editing, plus Git-style branching for reviewing agent changes before publishing.
 
 **Fray**  
 [fray.design](https://fray.design)  
@@ -87,7 +91,7 @@ Imports Figma frames, creates layout variations, and exports clean frames back.
 
 **Google Stitch**  
 [stitch.withgoogle.com](https://stitch.withgoogle.com)  
-Google AI design tool for generating app UI from prompts and exporting to code or Figma.
+Google's AI-native design canvas for generating multi-screen UI from prompts, with voice input, multiplayer editing, and Figma/code export.
 
 **Lovable**  
 [lovable.dev](https://lovable.dev)  
@@ -99,7 +103,7 @@ Generates code from prompts, images, or Figma and exports to Figma and GitHub.
 
 **MagicPath**  
 [magicpath.ai](https://magicpath.ai/)  
-AI design tool for creating, refining, and exploring apps and websites with a prompt-driven workflow.
+Multiplayer AI design canvas where agents and humans work together to generate, explore, and iterate on app and website UI.
 
 **Paper**  
 [paper.design](https://paper.design)  
@@ -184,7 +188,7 @@ The standard Figma plugin for managing and syncing design tokens.
 
 **UIMate**  
 [uimate.design](https://www.uimate.design)  
-Quickly scaffolds a base design system with starter components.
+AI-powered mobile app design generator for quickly producing starter UI screens.
 
 **Zeroheight**  
 [zeroheight.com](https://zeroheight.com)  
@@ -439,6 +443,10 @@ AI scheduling for Google Calendar: auto-blocks focus time, habits, and meetings 
 
 Tools for user research, testing, and product analytics.
 
+**Audyr**  
+[audyr.com](https://audyr.com)  
+AI feedback widget that clusters and prioritizes user feedback in real time, built for small teams without a dedicated research function.
+
 **Hey Marvin**  
 [heymarvin.com](https://heymarvin.com)  
 AI-powered research repository for interviews, synthesis, and tagging.
@@ -521,10 +529,6 @@ Adobe video generator built for commercial-safe workflows and Premiere integrati
 [descript.com](https://www.descript.com)  
 AI-powered video and podcast editor with transcript-based editing.
 
-**Flit**  
-[flit.design](https://www.flit.design)  
-Lightweight SVG animation tool for quick motion experiments.
-
 **Google Veo**  
 [deepmind.google](https://deepmind.google/models/veo/)  
 Google video generation model available through Gemini for cinematic clips.
@@ -541,6 +545,10 @@ Standard workflow for bringing After Effects animations to web and native apps.
 [lumalabs.ai](https://lumalabs.ai/dream-machine)  
 High-quality AI video generation known for smooth and realistic motion.
 
+**Omma**  
+[omma.build](https://omma.build)  
+AI canvas from the Spline team that generates interactive, production-ready motion design and web experiences from natural-language prompts.
+
 **Pika**  
 [pika.art](https://pika.art)  
 Creates, extends, and edits video clips from prompts or images.
@@ -552,6 +560,10 @@ Interactive runtime animation tool for production interfaces across platforms.
 **Runway**  
 [runwayml.com](https://runwayml.com)  
 Industry-leading AI video generation and creative editing platform.
+
+**Typeflow**  
+[typeflow.tools](https://typeflow.tools)  
+Free browser tool that turns typed text into polished kinetic typography animations, no keyframes required.
 
 
 ## Visual Productivity

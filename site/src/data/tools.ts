@@ -56,10 +56,10 @@ export const categories: Category[] = [
       {
         name: 'Figma',
         description:
-          'Collaborative interface design and prototyping in the browser, with design systems, FigJam, and dev handoff.',
+          'Collaborative interface design and prototyping in the browser, with design systems, FigJam, native motion design, code layers, and dev handoff.',
         url: 'https://www.figma.com',
         badge: 'recommended',
-        tags: ['figma', 'prototyping', 'design-systems', 'collaboration', 'handoff'],
+        tags: ['figma', 'prototyping', 'design-systems', 'collaboration', 'handoff', 'motion', 'code-layers'],
       },
       {
         name: 'UXPilot',
@@ -82,9 +82,9 @@ export const categories: Category[] = [
       },
       {
         name: 'MagicPath',
-        description: 'AI design tool for creating, refining, and exploring apps and websites with a prompt-driven workflow.',
+        description: 'Multiplayer AI design canvas where agents and humans work together to generate, explore, and iterate on app and website UI.',
         url: 'https://magicpath.ai/',
-        tags: ['ai', 'design', 'prompt-to-app', 'website', 'prototyping'],
+        tags: ['ai', 'design', 'prompt-to-app', 'website', 'prototyping', 'multiplayer', 'agents'],
       },
       {
         name: 'Fray',
@@ -94,10 +94,10 @@ export const categories: Category[] = [
       },
       {
         name: 'Google Stitch',
-        description: 'Google AI design tool for generating app UI from prompts and exporting to code or Figma.',
+        description:
+          "Google's AI-native design canvas for generating multi-screen UI from prompts, with voice input, multiplayer editing, and Figma/code export.",
         url: 'https://stitch.withgoogle.com',
-        badge: 'new',
-        tags: ['google', 'prompt-to-design', 'figma', 'ai-generation', 'ui'],
+        tags: ['google', 'prompt-to-design', 'figma', 'ai-generation', 'ui', 'multiplayer', 'multi-screen'],
       },
       {
         name: 'Subframe',
@@ -155,9 +155,9 @@ export const categories: Category[] = [
       {
         name: 'Claude Design',
         description:
-          'Claude workspace for generating and iterating on visual design artifacts from prompts, uploads, and conversational refinement.',
+          'Claude workspace for prompt-driven design that imports real design systems, validates output against brand rules, and syncs bidirectionally with Claude Code.',
         url: 'https://claude.ai/design',
-        tags: ['anthropic', 'claude', 'ai-design', 'prototyping', 'prompt-to-design', 'html'],
+        tags: ['anthropic', 'claude', 'ai-design', 'prototyping', 'prompt-to-design', 'html', 'design-systems', 'brand-compliance'],
       },
       {
         name: 'Lovable',
@@ -199,6 +199,14 @@ export const categories: Category[] = [
         url: 'https://paper.design',
         badge: 'new',
         tags: ['canvas', 'collaboration', 'agents', 'code-sync', 'html-css', 'mcp'],
+      },
+      {
+        name: 'Framer',
+        description:
+          'No-code site builder with AI Agents built into the canvas for real-time co-editing, plus Git-style branching for reviewing agent changes before publishing.',
+        url: 'https://www.framer.com',
+        badge: 'new',
+        tags: ['no-code', 'ai-agents', 'website', 'canvas', 'branching'],
       },
     ],
   },
@@ -350,10 +358,19 @@ export const categories: Category[] = [
         tags: ['motion', 'browser-based', 'fast'],
       },
       {
-        name: 'Flit',
-        description: 'Lightweight SVG animation tool for quick motion experiments.',
-        url: 'https://www.flit.design',
-        tags: ['svg', 'animation', 'lightweight'],
+        name: 'Omma',
+        description:
+          'AI canvas from the Spline team that generates interactive, production-ready motion design and web experiences from natural-language prompts.',
+        url: 'https://omma.build',
+        badge: 'new',
+        tags: ['ai', 'motion', '3d', 'canvas', 'prompt-to-design', 'spline'],
+      },
+      {
+        name: 'Typeflow',
+        description: 'Free browser tool that turns typed text into polished kinetic typography animations, no keyframes required.',
+        url: 'https://typeflow.tools',
+        badge: 'free',
+        tags: ['typography', 'animation', 'browser-based', 'free', 'kinetic-type'],
       },
       {
         name: 'Descript',
@@ -402,9 +419,9 @@ export const categories: Category[] = [
       },
       {
         name: 'UIMate',
-        description: 'Quickly scaffolds a base design system with starter components.',
+        description: 'AI-powered mobile app design generator for quickly producing starter UI screens.',
         url: 'https://www.uimate.design',
-        tags: ['generator', 'design-system', 'starter'],
+        tags: ['generator', 'ai', 'mobile', 'ui'],
       },
       {
         name: 'Component.gallery',
@@ -547,6 +564,14 @@ export const categories: Category[] = [
         description: 'AI-powered research repository for interviews, synthesis, and tagging.',
         url: 'https://heymarvin.com',
         tags: ['research', 'ai', 'interviews', 'repository'],
+      },
+      {
+        name: 'Audyr',
+        description:
+          'AI feedback widget that clusters and prioritizes user feedback in real time, built for small teams without a dedicated research function.',
+        url: 'https://audyr.com',
+        badge: 'new',
+        tags: ['feedback', 'ai', 'research', 'widget', 'prioritization'],
       },
     ],
   },
