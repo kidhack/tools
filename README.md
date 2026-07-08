@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**119** tools in **15** categories
+**120** tools in **15** categories
 
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
@@ -511,6 +511,10 @@ Curated platform for open-source typefaces selected for quality.
 **Pangram Pangram**  
 [pangrampangram.com](https://pangrampangram.com)  
 Type foundry offering free and premium typefaces popular with designers.
+
+**Pica**  
+[pica.joshpuckett.me](https://pica.joshpuckett.me)  
+Native macOS font manager with logo previews, OpenType support, custom collections, watch folders, and one-click activation.
 
 **Variable Fonts**  
 [v-fonts.com](https://v-fonts.com)  

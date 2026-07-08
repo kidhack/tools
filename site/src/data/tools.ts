@@ -670,6 +670,13 @@ export const categories: Category[] = [
         badge: 'free',
         tags: ['fonts', 'webfonts', 'extractor', 'alternatives', 'free'],
       },
+      {
+        name: 'Pica',
+        description: 'Native macOS font manager with logo previews, OpenType support, custom collections, watch folders, and one-click activation.',
+        url: 'https://pica.joshpuckett.me',
+        badge: 'free',
+        tags: ['fonts', 'font-manager', 'macos', 'opentype', 'native', 'free'],
+      },
     ],
   },
   {
