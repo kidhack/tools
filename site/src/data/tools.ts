@@ -1,10 +1,7 @@
-export type Badge = 'recommended' | 'new' | 'free' | 'paid';
-
 export interface Tool {
   name: string;
   description: string;
   url: string;
-  badge?: Badge;
   tags?: string[];
   personalNote?: string;
 }
@@ -58,7 +55,6 @@ export const categories: Category[] = [
         description:
           'Collaborative interface design and prototyping in the browser, with design systems, FigJam, native motion design, code layers, and dev handoff.',
         url: 'https://www.figma.com',
-        badge: 'recommended',
         tags: ['figma', 'prototyping', 'design-systems', 'collaboration', 'handoff', 'motion', 'code-layers'],
       },
       {
@@ -77,7 +73,6 @@ export const categories: Category[] = [
         name: 'Magic Patterns',
         description: 'Generates code from prompts, images, or Figma and exports to Figma and GitHub.',
         url: 'https://www.magicpatterns.com',
-        badge: 'recommended',
         tags: ['figma', 'github', 'code-export', 'components'],
       },
       {
@@ -103,7 +98,6 @@ export const categories: Category[] = [
         name: 'Subframe',
         description: 'Designs, prototypes, and exports production-ready code with reusable components.',
         url: 'https://www.subframe.com',
-        badge: 'recommended',
         tags: ['components', 'figma', 'react', 'code-export'],
       },
       {
@@ -117,7 +111,6 @@ export const categories: Category[] = [
         description:
           'No-code WebGL scene builder for interactive, shader-driven graphics in the browser—layers, effects, and export for sites, Framer, Webflow, and video.',
         url: 'https://www.unicorn.studio',
-        badge: 'new',
         tags: ['webgl', 'motion', 'interactive', 'browser-based', 'no-code', 'export'],
       },
       {
@@ -181,7 +174,6 @@ export const categories: Category[] = [
         name: 'Cursor',
         description: 'AI-first code editor for working alongside AI on real codebases.',
         url: 'https://www.cursor.com',
-        badge: 'recommended',
         personalNote: 'Most useful paired with component-level tools like Subframe.',
         tags: ['code-editor', 'ai', 'ide'],
       },
@@ -189,7 +181,6 @@ export const categories: Category[] = [
         name: 'Pencil',
         description: 'Agent-driven MCP canvas for generating and iterating on UI visually.',
         url: 'https://www.pencil.dev',
-        badge: 'new',
         tags: ['canvas', 'ai', 'agent', 'mcp', 'code-generation'],
       },
       {
@@ -197,7 +188,6 @@ export const categories: Category[] = [
         description:
           'Connected team canvas on web standards (HTML/CSS) that links agents, code, and real data so design and handoff stay in sync.',
         url: 'https://paper.design',
-        badge: 'new',
         tags: ['canvas', 'collaboration', 'agents', 'code-sync', 'html-css', 'mcp'],
       },
       {
@@ -205,7 +195,6 @@ export const categories: Category[] = [
         description:
           'No-code site builder with AI Agents built into the canvas for real-time co-editing, plus Git-style branching for reviewing agent changes before publishing.',
         url: 'https://www.framer.com',
-        badge: 'new',
         tags: ['no-code', 'ai-agents', 'website', 'canvas', 'branching'],
       },
     ],
@@ -219,21 +208,18 @@ export const categories: Category[] = [
         name: 'Mockdown',
         description: 'Free browser-based ASCII wireframe editor for lo-fi mockups and quick prototypes.',
         url: 'https://www.mockdown.design',
-        badge: 'free',
         tags: ['wireframe', 'lofi', 'ascii', 'free', 'no-signup', 'browser-based'],
       },
       {
         name: 'MarkEdit',
         description: 'Free open-source Markdown editor for macOS with a native lightweight feel.',
         url: 'https://github.com/MarkEdit-app/MarkEdit',
-        badge: 'free',
         tags: ['markdown', 'editor', 'macos', 'open-source', 'free', 'native'],
       },
       {
         name: 'TAAG',
         description: 'Classic online text-to-ASCII art generator with dozens of font styles.',
         url: 'https://patorjk.com/software/taag/',
-        badge: 'free',
         tags: ['ascii', 'art', 'text', 'generator', 'free', 'browser-based'],
       },
       {
@@ -247,7 +233,6 @@ export const categories: Category[] = [
         description:
           'Curated DESIGN.md templates inspired by popular brand design systems—drop-in specs for AI coding agents to match UI conventions.',
         url: 'https://github.com/VoltAgent/awesome-design-md',
-        badge: 'free',
         tags: ['markdown', 'design-system', 'agents', 'github', 'open-source', 'free'],
       },
     ],
@@ -273,7 +258,6 @@ export const categories: Category[] = [
         name: 'Reve',
         description: 'Fast, high-quality AI image generation for visual exploration.',
         url: 'https://reve.art',
-        badge: 'new',
         tags: ['image-generation', 'fast'],
       },
       {
@@ -294,7 +278,6 @@ export const categories: Category[] = [
         name: 'Lummi',
         description: 'Curated library of free AI stock photos, illustrations, and 3D renders from human creators.',
         url: 'https://lummi.ai',
-        badge: 'free',
         tags: ['stock', 'photos', 'illustration', '3d', 'ai', 'free'],
       },
     ],
@@ -314,35 +297,30 @@ export const categories: Category[] = [
         name: 'Luma Dream Machine',
         description: 'High-quality AI video generation known for smooth and realistic motion.',
         url: 'https://lumalabs.ai/dream-machine',
-        badge: 'new',
         tags: ['video-generation', 'ai', 'text-to-video', 'image-to-video'],
       },
       {
         name: 'Pika',
         description: 'Creates, extends, and edits video clips from prompts or images.',
         url: 'https://pika.art',
-        badge: 'new',
         tags: ['video-generation', 'ai', 'editing', 'text-to-video'],
       },
       {
         name: 'Google Veo',
         description: 'Google video generation model available through Gemini for cinematic clips.',
         url: 'https://deepmind.google/models/veo/',
-        badge: 'new',
         tags: ['video-generation', 'google', 'gemini', 'text-to-video', 'ai'],
       },
       {
         name: 'Adobe Firefly Video',
         description: 'Adobe video generator built for commercial-safe workflows and Premiere integration.',
         url: 'https://www.adobe.com/products/firefly/features/ai-video-generator.html',
-        badge: 'new',
         tags: ['video-generation', 'adobe', 'premiere', 'licensed', 'safe-for-commercial'],
       },
       {
         name: 'Rive',
         description: 'Interactive runtime animation tool for production interfaces across platforms.',
         url: 'https://rive.app',
-        badge: 'recommended',
         tags: ['interactive', 'animation', 'runtime', 'react', 'ios', 'android'],
       },
       {
@@ -362,14 +340,12 @@ export const categories: Category[] = [
         description:
           'AI canvas from the Spline team that generates interactive, production-ready motion design and web experiences from natural-language prompts.',
         url: 'https://omma.build',
-        badge: 'new',
         tags: ['ai', 'motion', '3d', 'canvas', 'prompt-to-design', 'spline'],
       },
       {
         name: 'Typeflow',
         description: 'Free browser tool that turns typed text into polished kinetic typography animations, no keyframes required.',
         url: 'https://typeflow.tools',
-        badge: 'free',
         tags: ['typography', 'animation', 'browser-based', 'free', 'kinetic-type'],
       },
       {
@@ -389,14 +365,12 @@ export const categories: Category[] = [
         name: 'Tokens Studio',
         description: 'The standard Figma plugin for managing and syncing design tokens.',
         url: 'https://tokens.studio',
-        badge: 'recommended',
         tags: ['figma', 'tokens', 'design-system', 'plugin'],
       },
       {
         name: 'Storybook',
         description: 'Component documentation and isolated UI development for design system handoff.',
         url: 'https://storybook.js.org',
-        badge: 'recommended',
         tags: ['components', 'documentation', 'react', 'handoff'],
       },
       {
@@ -427,7 +401,6 @@ export const categories: Category[] = [
         name: 'Component.gallery',
         description: 'Curated index of components across major design systems for research.',
         url: 'https://component.gallery/design-systems/',
-        badge: 'free',
         tags: ['reference', 'components', 'research', 'design-system'],
       },
       {
@@ -576,24 +549,11 @@ export const categories: Category[] = [
         tags: ['skill', 'design-system', 'ui', 'ux', 'generator', 'multi-platform'],
       },
       {
-        name: 'Vercel Agent Skills',
-        description: "Vercel's official collection of agent skills for web development and interface work.",
-        url: 'https://github.com/vercel-labs/agent-skills',
-        tags: ['skill', 'vercel', 'agents', 'web', 'open-source'],
-      },
-      {
-        name: 'Web Design Guidelines',
-        description:
-          "Audit skill that checks your components against Vercel's guidelines and reports accessibility and UX issues by file and line.",
-        url: 'https://claudemarketplaces.com/skills/vercel-labs/agent-skills/web-design-guidelines',
-        tags: ['skill', 'audit', 'accessibility', 'ux', 'vercel', 'code-review'],
-      },
-      {
         name: 'Web Interface Guidelines',
         description:
-          "Vercel's living checklist of interface decisions across interaction, motion, layout, forms, and performance, installable as an agent command.",
+          "Vercel's living checklist of interface decisions across interaction, motion, layout, forms, and performance, installable as an agent audit command.",
         url: 'https://vercel.com/design/guidelines',
-        tags: ['guidelines', 'reference', 'accessibility', 'performance', 'vercel', 'agents'],
+        tags: ['guidelines', 'reference', 'accessibility', 'performance', 'vercel', 'agents', 'audit'],
       },
       {
         name: 'Accessibility Review',
@@ -638,7 +598,6 @@ export const categories: Category[] = [
         description:
           'AI feedback widget that clusters and prioritizes user feedback in real time, built for small teams without a dedicated research function.',
         url: 'https://audyr.com',
-        badge: 'new',
         tags: ['feedback', 'ai', 'research', 'widget', 'prioritization'],
       },
     ],
@@ -652,7 +611,6 @@ export const categories: Category[] = [
         name: 'Google Fonts',
         description: 'Free open-source web font library used across the web.',
         url: 'https://fonts.google.com',
-        badge: 'free',
         tags: ['fonts', 'web', 'open-source', 'free'],
       },
       {
@@ -665,14 +623,12 @@ export const categories: Category[] = [
         name: 'Fontshare',
         description: 'Free high-quality fonts from Indian Type Foundry.',
         url: 'https://www.fontshare.com',
-        badge: 'free',
         tags: ['fonts', 'free', 'quality', 'open-source'],
       },
       {
         name: 'Fontjoy',
         description: 'ML-powered font pairing generator for finding complementary combinations.',
         url: 'https://fontjoy.com',
-        badge: 'free',
         tags: ['font-pairing', 'ai', 'generator', 'free'],
       },
       {
@@ -685,7 +641,6 @@ export const categories: Category[] = [
         name: 'Variable Fonts',
         description: 'Reference and showcase for variable fonts with rich filtering.',
         url: 'https://v-fonts.com',
-        badge: 'free',
         tags: ['variable-fonts', 'reference', 'css', 'web'],
       },
       {
@@ -728,21 +683,18 @@ export const categories: Category[] = [
         name: 'Open Foundry',
         description: 'Curated platform for open-source typefaces selected for quality.',
         url: 'https://open-foundry.com',
-        badge: 'free',
         tags: ['foundry', 'open-source', 'free', 'curated'],
       },
       {
         name: 'Analyze Any Font',
         description: 'Extracts webfonts from any URL and suggests free open-source alternatives.',
         url: 'https://font-stealer.vercel.app',
-        badge: 'free',
         tags: ['fonts', 'webfonts', 'extractor', 'alternatives', 'free'],
       },
       {
         name: 'Pica',
         description: 'Native macOS font manager with logo previews, OpenType support, custom collections, watch folders, and one-click activation.',
         url: 'https://pica.joshpuckett.me',
-        badge: 'free',
         tags: ['fonts', 'font-manager', 'macos', 'opentype', 'native', 'free'],
       },
     ],
@@ -756,35 +708,30 @@ export const categories: Category[] = [
         name: 'InclusiveColors',
         description: 'Accessible palette creator that builds WCAG-compliant color systems.',
         url: 'https://www.inclusivecolors.com/',
-        badge: 'recommended',
         tags: ['accessibility', 'wcag', 'palette', 'a11y'],
       },
       {
         name: 'UI Colors',
         description: 'Tailwind-compatible color palette generator.',
         url: 'https://uicolors.app/create',
-        badge: 'free',
         tags: ['tailwind', 'palette', 'generator'],
       },
       {
         name: 'Tints.dev',
         description: 'Generates tint and shade scales from a base color.',
         url: 'https://www.tints.dev',
-        badge: 'free',
         tags: ['tints', 'shades', 'scale', 'tailwind'],
       },
       {
         name: 'Tailwind Shades',
         description: 'Tailwind CSS shade generator for color scales.',
         url: 'https://www.tailwindshades.com/',
-        badge: 'free',
         tags: ['tailwind', 'shades', 'generator'],
       },
       {
         name: 'Tailcolor',
         description: 'Tailwind color tool for customizing and previewing palettes.',
         url: 'https://tailcolor.com/',
-        badge: 'free',
         tags: ['tailwind', 'color', 'preview'],
       },
     ],
@@ -798,21 +745,18 @@ export const categories: Category[] = [
         name: 'Iconify',
         description: 'Universal icon framework with more than 200,000 icons from many sets.',
         url: 'https://iconify.design',
-        badge: 'recommended',
         tags: ['icons', 'framework', 'universal', 'open-source'],
       },
       {
         name: 'Lucide',
         description: 'Clean and consistent open-source icon set popular in React ecosystems.',
         url: 'https://lucide.dev',
-        badge: 'free',
         tags: ['icons', 'react', 'open-source', 'svg'],
       },
       {
         name: 'Hero Icons',
         description: 'Hand-crafted SVG icons by the Tailwind CSS team.',
         url: 'https://heroicons.com',
-        badge: 'free',
         tags: ['icons', 'tailwind', 'svg', 'open-source'],
       },
       {
@@ -837,7 +781,6 @@ export const categories: Category[] = [
         name: 'Google Icons',
         description: 'Google Material Symbols icon set with adjustable font-based properties.',
         url: 'https://fonts.google.com/icons',
-        badge: 'free',
         tags: ['icons', 'google', 'material', 'variable-font'],
       },
       {
@@ -869,7 +812,6 @@ export const categories: Category[] = [
         name: 'Mobbin',
         description: 'Massive library of real mobile and web UI screenshots searchable by pattern.',
         url: 'https://mobbin.com',
-        badge: 'recommended',
         tags: ['inspiration', 'mobile', 'web', 'ui-patterns', 'screenshots'],
       },
       {
@@ -888,21 +830,18 @@ export const categories: Category[] = [
         name: 'Godly',
         description: 'Curated showcase of standout website design filtered by style and type.',
         url: 'https://godly.website',
-        badge: 'recommended',
         tags: ['inspiration', 'web-design', 'curated'],
       },
       {
         name: 'Minimal Gallery',
         description: 'Curated collection of minimal and clean web design references.',
         url: 'https://minimal.gallery',
-        badge: 'free',
         tags: ['inspiration', 'web-design', 'minimal', 'curated'],
       },
       {
         name: 'Dark Design',
         description: 'Curated gallery of dark mode interface design references.',
         url: 'https://www.dark.design',
-        badge: 'free',
         tags: ['inspiration', 'dark-mode', 'ui', 'curated'],
       },
     ],

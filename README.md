@@ -10,7 +10,7 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**129** tools in **16** categories
+**127** tools in **16** categories
 
 - [Claude Skills](https://tools.abl.design/#claude-skills)
 - [Color](https://tools.abl.design/#color)
@@ -57,17 +57,9 @@ Anti-slop frontend skill set that steers agents away from templated UI, with sty
 [github.com](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)  
 Design intelligence skill with a reasoning engine that generates tailored design systems across 84 UI styles and 161 rules.
 
-**Vercel Agent Skills**  
-[github.com](https://github.com/vercel-labs/agent-skills)  
-Vercel's official collection of agent skills for web development and interface work.
-
-**Web Design Guidelines**  
-[claudemarketplaces.com](https://claudemarketplaces.com/skills/vercel-labs/agent-skills/web-design-guidelines)  
-Audit skill that checks your components against Vercel's guidelines and reports accessibility and UX issues by file and line.
-
 **Web Interface Guidelines**  
 [vercel.com](https://vercel.com/design/guidelines)  
-Vercel's living checklist of interface decisions across interaction, motion, layout, forms, and performance, installable as an agent command.
+Vercel's living checklist of interface decisions across interaction, motion, layout, forms, and performance, installable as an agent audit command.
 
 
 ## Color
