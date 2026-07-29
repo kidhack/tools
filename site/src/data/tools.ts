@@ -549,6 +549,74 @@ export const categories: Category[] = [
     ],
   },
   {
+    id: 'claude-skills',
+    label: 'Claude Skills',
+    description:
+      'Installable SKILL.md files that give Claude Code, Cursor, and other agents design judgment, guidelines, and audit passes.',
+    tools: [
+      {
+        name: 'AI Skills for Design Engineers',
+        description:
+          "Emil Kowalski's skill collection for animation and interface craft, including animation review, audit, and Apple design principles.",
+        url: 'https://emilkowal.ski/skill',
+        tags: ['skill', 'animation', 'motion', 'design-engineering', 'review', 'apple'],
+      },
+      {
+        name: 'Taste Skill',
+        description:
+          'Anti-slop frontend skill set that steers agents away from templated UI, with style variants for minimalist, brutalist, and soft aesthetics.',
+        url: 'https://www.tasteskill.dev',
+        tags: ['skill', 'frontend', 'anti-slop', 'design-system', 'open-source', 'style'],
+      },
+      {
+        name: 'UI UX Pro Max',
+        description:
+          'Design intelligence skill with a reasoning engine that generates tailored design systems across 84 UI styles and 161 rules.',
+        url: 'https://github.com/nextlevelbuilder/ui-ux-pro-max-skill',
+        tags: ['skill', 'design-system', 'ui', 'ux', 'generator', 'multi-platform'],
+      },
+      {
+        name: 'Vercel Agent Skills',
+        description: "Vercel's official collection of agent skills for web development and interface work.",
+        url: 'https://github.com/vercel-labs/agent-skills',
+        tags: ['skill', 'vercel', 'agents', 'web', 'open-source'],
+      },
+      {
+        name: 'Web Design Guidelines',
+        description:
+          "Audit skill that checks your components against Vercel's guidelines and reports accessibility and UX issues by file and line.",
+        url: 'https://claudemarketplaces.com/skills/vercel-labs/agent-skills/web-design-guidelines',
+        tags: ['skill', 'audit', 'accessibility', 'ux', 'vercel', 'code-review'],
+      },
+      {
+        name: 'Web Interface Guidelines',
+        description:
+          "Vercel's living checklist of interface decisions across interaction, motion, layout, forms, and performance, installable as an agent command.",
+        url: 'https://vercel.com/design/guidelines',
+        tags: ['guidelines', 'reference', 'accessibility', 'performance', 'vercel', 'agents'],
+      },
+      {
+        name: 'Accessibility Review',
+        description: 'Skill that audits a design or page against WCAG 2.1 AA and returns issues with severity and fixes.',
+        url: 'https://collectivebrain.de/en/skills/design-accessibility-review/',
+        tags: ['skill', 'accessibility', 'wcag', 'a11y', 'audit', 'contrast'],
+      },
+      {
+        name: 'Anthropic Brand Guidelines',
+        description: "Official skill that applies Anthropic's brand colors and typography to generated artifacts.",
+        url: 'https://github.com/anthropics/skills/tree/main/skills/brand-guidelines',
+        tags: ['skill', 'anthropic', 'brand', 'typography', 'color', 'official'],
+      },
+      {
+        name: 'Extract Design System',
+        description:
+          'Skill and CLI that pulls color, type, spacing, radius, and shadow tokens from any public site as JSON and CSS custom properties.',
+        url: 'https://github.com/arvindrk/extract-design-system',
+        tags: ['skill', 'cli', 'design-tokens', 'extractor', 'css', 'design-system'],
+      },
+    ],
+  },
+  {
     id: 'research-testing',
     label: 'Research & Testing',
     description: 'Tools for user research, testing, and product analytics.',

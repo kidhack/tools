@@ -10,8 +10,9 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 
 ## Categories
 
-**120** tools in **15** categories
+**129** tools in **16** categories
 
+- [Claude Skills](https://tools.abl.design/#claude-skills)
 - [Color](https://tools.abl.design/#color)
 - [Design & Code](https://tools.abl.design/#design-and-code)
 - [Design Systems](https://tools.abl.design/#design-systems)
@@ -27,6 +28,47 @@ Search and TOC available on full site: [tools.abl.design](https://tools.abl.desi
 - [Typography](https://tools.abl.design/#typography)
 - [Video & Motion](https://tools.abl.design/#video-motion)
 - [Visual Productivity](https://tools.abl.design/#visual-productivity)
+
+## Claude Skills
+
+Installable SKILL.md files that give Claude Code, Cursor, and other agents design judgment, guidelines, and audit passes.
+
+**Accessibility Review**  
+[collectivebrain.de](https://collectivebrain.de/en/skills/design-accessibility-review/)  
+Skill that audits a design or page against WCAG 2.1 AA and returns issues with severity and fixes.
+
+**AI Skills for Design Engineers**  
+[emilkowal.ski](https://emilkowal.ski/skill)  
+Emil Kowalski's skill collection for animation and interface craft, including animation review, audit, and Apple design principles.
+
+**Anthropic Brand Guidelines**  
+[github.com](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)  
+Official skill that applies Anthropic's brand colors and typography to generated artifacts.
+
+**Extract Design System**  
+[github.com](https://github.com/arvindrk/extract-design-system)  
+Skill and CLI that pulls color, type, spacing, radius, and shadow tokens from any public site as JSON and CSS custom properties.
+
+**Taste Skill**  
+[tasteskill.dev](https://www.tasteskill.dev)  
+Anti-slop frontend skill set that steers agents away from templated UI, with style variants for minimalist, brutalist, and soft aesthetics.
+
+**UI UX Pro Max**  
+[github.com](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)  
+Design intelligence skill with a reasoning engine that generates tailored design systems across 84 UI styles and 161 rules.
+
+**Vercel Agent Skills**  
+[github.com](https://github.com/vercel-labs/agent-skills)  
+Vercel's official collection of agent skills for web development and interface work.
+
+**Web Design Guidelines**  
+[claudemarketplaces.com](https://claudemarketplaces.com/skills/vercel-labs/agent-skills/web-design-guidelines)  
+Audit skill that checks your components against Vercel's guidelines and reports accessibility and UX issues by file and line.
+
+**Web Interface Guidelines**  
+[vercel.com](https://vercel.com/design/guidelines)  
+Vercel's living checklist of interface decisions across interaction, motion, layout, forms, and performance, installable as an agent command.
+
 
 ## Color
 
